@@ -9,10 +9,10 @@
     <title>Egucation purpuse</title>
 </head>
 
-<body class="px-8px">
-    <section class="home">
+<body class="h-[100%] w-[100%] m-0 p-[0]">
+    <section class="home ">
         <!-- navbar -->
-        <div class="flex bg-[#2c2c32] text-white md:justify-center md:items-center sticky top-0 relative z-10">
+        <div class="flex bg-[#2c2c32] text-white md:justify-center md:items-center sticky top-0 relative z-10 hidden">
             <img src="assets/vscode.png" alt="logo image" class="w-8 h-8 mr-3" />
             <span class="mr-7 md:text-xl">Visual Studio Code</span>
             <ul class="flex md:pr-[200px] md:text-base">
@@ -53,16 +53,17 @@
         </div>
 
         <!-- vs code version  -->
-        <div class="flex bg-[#25252b] justify-center items-center h-10 ">
-            <a href="#" class="text-[#0098ff] font-medium hover:underline decoration-solid ">Version 1.73</a>
+        <div class="flex bg-[#25252b] justify-center py-[10px] px-[50px] text-center">
+            <a href="#" class="text-[#0098ff] font-medium hover:underline decoration-solid whitespace-nowrap">Version
+                1.73</a>
             <h5 class="text-white ml-3">is now available! Read about the new features and fixes from October.</h5>
         </div>
 
         <!-- main home page -->
-        <div class="flex bg-[#2c2c32] text-white justify-center ">
+        <div class="flex bg-[#2c2c32] text-white justify-center max-lg:items-center max-lg:flex-col">
             <div class="flex flex-col items-center mt-[30px] mr-[40px] ">
                 <div class=" flex items-center flex-col text-[50px] font-thin">
-                    <h1 class="mt-[20px] h-14">Code editing.</h1>
+                    <h1 class="mt-[20px] h-14 whitespace-nowrap">Code editing.</h1>
                     <strong class="font-normal top-[75px]">Redefined.</strong>
                 </div>
                 <h4 class="text-lg font-thin opacity-80">Free. Built on open source. Runs everywhere.</h4>
@@ -84,129 +85,156 @@
             </div>
             <!-- img -->
             <div class="flex my-[20px] ">
-                <img class="h-[600px]" src="https://code.visualstudio.com/assets/home/home-screenshot-mac.png"
-                    alt="code img">
+                <img class="max-sm:px-[20px] xl:h-[600px] md:h-[500px]"
+                    src="https://code.visualstudio.com/assets/home/home-screenshot-win-lg.png" alt="code img">
             </div>
+
+
         </div>
 
         <!-- hover icons -->
-        <div class="flex justify-around px-[12rem]">
-            <div class=" flex flex-col py-[1rem] ">
-                <a href="#" class="text-[20px]"><img src="assets/intelisence.png" alt="" srcset=""
-                        class="h-14 ml-5">InteliSence </a>
+        <div class="flex justify-between lg:px-[12rem] max-md:flex-col ">
+            <div class="flex justify-around w-full">
+                <div class=" flex flex-col py-[1rem] ">
+                    <a href="#" class="text-[20px]"><img src="assets/intelisence.png" alt="" srcset=""
+                            class="h-14 ml-5">InteliSence </a>
+                </div>
+
+                <div class="flex flex-col py-[1rem]">
+                    <a href="#" class="text-[20px]"><img src="assets/debug.png" alt="" srcset="" class="h-14 ml-8">Run
+                        and
+                        Debug</a>
+                </div>
             </div>
 
-            <div class="flex flex-col py-[1rem]">
-                <a href="#" class="text-[20px]"><img src="assets/debug.png" alt="" srcset="" class="h-14 ml-8">Run and
-                    Debug</a>
-            </div>
+            <div class="flex justify-around w-full">
+                <div class="flex flex-col py-[1rem] ">
+                    <a href="#" class="text-[20px] "><img src="assets/git.png" alt="" srcset="" class="h-14">Git</a>
+                </div>
 
-            <div class="flex flex-col py-[1rem] ">
-                <a href="#" class="text-[20px] "><img src="assets/git.png" alt="" srcset="" class="h-14">Git</a>
-            </div>
-
-            <div class="flex flex-col py-[1rem]">
-                <a href="#" class="text-[20px]"><img src="assets/extension.png" alt="" srcset=""
-                        class="h-14 ml-3">extension</a>
+                <div class="flex flex-col py-[1rem]">
+                    <a href="#" class="text-[20px]"><img src="assets/extension.png" alt="" srcset=""
+                            class="h-14 ml-3">extension</a>
+                </div>
             </div>
         </div>
 
         <!-- review section -->
-        <div class="justify-center flex py-[80px] bg-[#f5f5f5] h-[290px]">
-            <a href="#"><img src="assets/next (1).png" alt="" srcset=""
-                    class="h-[50px] mr-[20px] mt-[30px] opacity-60"></a>
-            <div class="flex flex-wrap mr-[140px]">
-                <img class="h-[4.2rem] w-[4.2rem] rounded-full mr-[10px]"
-                    src="https://code.visualstudio.com/assets/socialproof/twitterprofiles/MrDarrenV.jpg" alt="">
-                <p class=""><strong class="hover:text-[#0098ff]">Darren</strong>@MrDarrenV</p>
-                <p class="absolute pb-[50px] flex-col ml-[80px] mt-[25px]">Just as I thought <strong
-                        class="hover:text-[#0098ff] opacity-80">@code</strong> couldn't <br> get better, out comes its
-                    Remote <br> Development plugins that let you <br> remote
-                    into containers as a dev <br> environment! 😍</p>
-            </div>
-
-            <div class="flex flex-wrap mr-[90px]">
-                <img class="h-[4.2rem] w-[4.2rem] rounded-full mr-[10px]"
-                    src="https://code.visualstudio.com/assets/socialproof/twitterprofiles/cassidoo.jpg" alt="">
-                <p class=""><strong class="hover:text-[#0098ff]">Cassidy Williams</strong>@cassidoo
-                </p>
-                <p class="absolute pb-[50px] flex-col ml-[80px] mt-[25px]">I was a vim fan, but then <br>discovered VS
-                    Code's Vim plugin, <br> which lets me add in my vim<br> keybindings. I can maintain my <br> coding
-                    style without having to <br>compromise on speed.</p>
-            </div>
-
-            <div class="flex flex-wrap mr-[70px]">
-                <img class="h-[4.2rem] w-[4.2rem] rounded-full mr-[10px]"
-                    src="https://code.visualstudio.com/assets/socialproof/twitterprofiles/lauragift21.jpg" alt="">
-                <p class=""><strong class="hover:text-[#0098ff]">Gift Egwuenu</strong>@lauragift21</p>
-                <p class="absolute pb-[50px] flex-col ml-[80px] mt-[25px]">I love <strong
-                        class="hover:text-[#0098ff] opacity-80">@code</strong> The built-in<br>markdown previewer is
-                    awesome <br>and the plugin system allows me <br> to use GitLens, which makes my <br>workflow so much
-                    easier.
-                </p>
-                <a href="#"><img src="assets/next.png" alt="" srcset=""
-                        class="absolute h-[50px] ml-[50px] mt-[30px] opacity-60 hover:color"></a>
-            </div>
+        <div class="justify-center  flex py-[80px] bg-[#f5f5f5] max-xl:px-[50px] max-lg:px-[10px]">
+                <a href="#" class="max-xl:mr-[50px]  max-lg:mr-[0px]"><img src="assets/next (1).png" alt="" srcset=""
+                        class="h-[50px] ml-[50px] max-lg:mr-[50px] mt-[30px] max-lg:mt-[100px] opacity-60 "></a>
+                <div class="flex max-lg:flex-col max-lg:items-center">
+                    <div class="flex mr-[50px] max-lg:mr-[0px]">
+                        <img class="h-[4.2rem] w-[4.2rem] rounded-full mr-[10px]"
+                            src="https://code.visualstudio.com/assets/socialproof/twitterprofiles/MrDarrenV.jpg" alt="">
+                        <div class="flex flex-col ">
+                            <div class="flex max-xl:flex-col">
+                                <strong class="hover:text-[#0098ff]">Darren</strong>
+                                <p class="">@MrDarrenV</p>
+                            </div>
+                            <p class=" max-xl:w-[200px] w-[250px] max-lg:w-full">Just as I thought <strong
+                                    class="hover:text-[#0098ff] opacity-80">@code</strong> couldn't get better, out comes
+                                its
+                                Remote Development plugins that let you remote
+                                into containers as a dev environment! 😍</p>
+                        </div>
+                    </div>
+    
+                    <div class="flex  mr-[50px] max-lg:mr-[0px]">
+                        <img class="h-[4.2rem] w-[4.2rem] rounded-full mr-[10px]"
+                            src="https://code.visualstudio.com/assets/socialproof/twitterprofiles/cassidoo.jpg" alt="">
+                        <div class="flex flex-col">
+                            <div class="flex max-xl:flex-col">
+                                <strong class="hover:text-[#0098ff]">Cassidy Williams</strong>
+                                <p class="">@cassidoo</p>
+                            </div>
+                            <p class=" max-xl:w-[200px] w-[250px] max-lg:w-full">I was a vim fan, but then discovered VS
+                                Code's Vim plugin, which lets me add in my vim keybindings. I can maintain my
+                                coding
+                                style without having to compromise on speed.</p>
+                        </div>
+                    </div>
+    
+                    <div class="flex ">
+                        <img class="h-[4.2rem] w-[4.2rem] rounded-full mr-[10px]"
+                            src="https://code.visualstudio.com/assets/socialproof/twitterprofiles/lauragift21.jpg" alt="">
+                        <div class="flex flex-col">
+                            <div class="flex max-xl:flex-col">
+                                <strong class="hover:text-[#0098ff]">Gift Egwuenu</strong>
+                                <p class="">@lauragift21</p>
+                            </div>
+                            <p class=" max-xl:w-[200px] w-[250px] max-lg:w-full">I love <strong
+                                    class="hover:text-[#0098ff] opacity-80">@code</strong> The built-in markdown previewer
+                                is
+                                awesome and the plugin system allows me to use GitLens, which makes my workflow so
+                                much
+                                easier.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="max-xl:ml-[50px]  max-lg:ml-[0px]"><img src="assets/next.png" alt="" srcset=""
+                        class=" h-[50px] mr-[50px] mt-[30px] max-lg:mt-[100px] opacity-60 "></a>
         </div>
 
         <!-- Intellisence -->
-        <div class="flex justify-center py-[50px]">
+        <div class="flex justify-center py-[50px] max-md:flex-col max-md:items-center">
             <img src="https://code.visualstudio.com/assets/images/home-intellisense.svg" alt="" srcset=""
-                class="pt-[50px] mr-[100px]">
-            <div class="flex flex-col pt-[50px]">
+                class=" mr-[100px] max-xl:h-[180px] max-xl:mt-[10px] max-md:h-[280px]">
+            <div class="flex flex-col max-md:ml-[10px]">
                 <h1 class="text-[26px] opacity-75 mb-[20px] ">Meet IntelliSense.</h1>
-                <p class="text-[18px] leading-10 opacity-90">Go beyond syntax highlighting and autocomplete with
-                    IntelliSense, which <br> provides smart completions
-                    based on variable types, function definitions, and <br> imported modules.</p>
+                <p class="text-[18px] leading-10 max-xl:leading-8 opacity-90 w-[600px] max-xl:w-[550px] max-md:w-full ">Go beyond syntax highlighting and autocomplete with
+                    IntelliSense, which provides smart completions
+                    based on variable types, function definitions, and imported modules.</p>
             </div>
         </div>
 
         <!-- run and debug-->
-        <div class="flex justify-center py-[50px] bg-[#f5f5f5]">
-            <div class="flex flex-col pt-[50px]">
-                <h1 class="text-[26px] opacity-75 mb-[20px] ">Print statement debugging is a thing of the past.</h1>
-                <p class="text-[18px] leading-10 opacity-90">Debug code right from the editor. Launch or attach to your
-                    running apps and <br> debug with break points, call stacks, and an interactive console.</p>
+        <div class="flex justify-center py-[50px] bg-[#f5f5f5] ">
+            <div class="flex flex-col max-xl:ml-[20px]">
+                <h1 class="text-[26px] opacity-75 mb-[20px] w-[500px]">Print statement debugging is a thing of the past.</h1>
+                <p class="text-[18px] leading-10 opacity-90 w-[600px] max-xl:leading-8 max-xl:w-[550px] ">Debug code right from the editor. Launch or attach to your
+                    running apps and debug with break points, call stacks, and an interactive console.</p>
             </div>
             <img src="	https://code.visualstudio.com/assets/images/home-debug.svg" alt="" srcset=""
-                class="pt-[50px] ml-[100px]">
+                class="max-xl:mr-[50px] ml-[100px] max-xl:h-[180px] max-xl:mt-[10px]">
         </div>
 
         <!-- git -->
-        <div class="flex justify-center py-[50px]">
+        <div class="flex justify-center py-[50px] ">
             <img src="https://code.visualstudio.com/assets/images/home-git.svg" alt="" srcset=""
-                class="pt-[50px] mr-[100px]">
-            <div class="flex flex-col pt-[50px]">
+                class="mr-[100px] max-xl:h-[180px] max-xl:mt-[10px]">
+            <div class="flex flex-col ">
                 <h1 class="text-[26px] opacity-75 mb-[20px] ">Git commands built-in.</h1>
-                <p class="text-[18px] leading-10 opacity-90">Working with Git and other SCM providers has never been
-                    easier. Review diffs, <br> stage files, and make commits right from the editor. Push and pull from
-                    any <br> hosted SCM service.</p>
+                <p class="text-[18px] leading-10 opacity-90 max-xl:leading-8 w-[600px] max-xl:w-[550px]">Working with Git and other SCM providers has never been
+                    easier. Review diffs, stage files, and make commits right from the editor. Push and pull from
+                    any hosted SCM service.</p>
             </div>
         </div>
 
         <!-- extension -->
         <div class="flex justify-center py-[50px] bg-[#f5f5f5]">
-            <div class="flex flex-col pt-[50px]">
+            <div class="flex flex-col pt-[50px] max-xl:ml-[20px] ">
                 <h1 class="text-[26px] opacity-75 mb-[20px] ">Extensible and customizable</h1>
-                <p class="text-[18px] leading-10 opacity-90">Want even more features? Install extensions to add new
-                    languages, themes,<br> debuggers, and to connect to additional services. Extensions run in separate
-                    <br>
-                    processes, ensuring they won't slow down your editor. Learn more about <br> extensions.
+                <p class="text-[18px] leading-10 opacity-90 w-[600px] max-xl:leading-8 max-xl:w-[550px]">Want even more features? Install extensions to add new
+                    languages, themes, debuggers, and to connect to additional services. Extensions run in separate
+                    
+                    processes, ensuring they won't slow down your editor. Learn more about  extensions.
                 </p>
             </div>
             <img src="https://code.visualstudio.com/assets/images/Hundreds-of-Extensions.png" alt="" srcset=""
-                class="pt-[20px] ml-[100px] h-[260px] hover:scale-110 hover:ease-in duration-300 ">
+                class="pt-[20px] ml-[100px] h-[260px] max-xl:mr-[50px] ml-[100px] max-xl:h-[200px] max-xl:mt-[10px] hover:scale-110 hover:ease-in duration-300 ">
         </div>
 
         <!-- deploy -->
         <div class="flex justify-center py-[50px]">
             <img src="	https://code.visualstudio.com/assets/images/home-azure.svg" alt="" srcset=""
-                class="pt-[50px] mr-[100px]">
-            <div class="flex flex-col pt-[50px]">
+                class=" mr-[100px] max-xl:h-[180px] max-xl:mt-[10px]">
+            <div class="flex flex-col ">
                 <h1 class="text-[26px] opacity-75 mb-[20px] ">Deploy with confidence and ease</h1>
-                <p class="text-[18px] leading-10 opacity-90">With Microsoft Azure you can deploy and host your React,
-                    Angular, Vue, Node, <br> Python (and more!) sites, store and query relational and document based
-                    data, <br> and scale with serverless computing, all with ease, all from within VS Code.</p>
+                <p class="text-[18px] leading-10 opacity-90 max-xl:leading-8 w-[600px] max-xl:w-[550px]">With Microsoft Azure you can deploy and host your React,
+                    Angular, Vue, Node, Python (and more!) sites, store and query relational and document based
+                    data, and scale with serverless computing, all with ease, all from within VS Code.</p>
             </div>
         </div>
 
@@ -466,39 +494,45 @@
         <div class="flex justify-around py-[40px] px-[100px] bg-[#f5f5f5]">
             <div class=" text-center ">
                 <h1 class="font-medium text-[20px] opacity-90">Want new features sooner?</h1>
-                <p class="text-[17px]">Get the <a href="#" class="text-[#0098ff] hover:underline">Insiders build</a> instead.</p>
+                <p class="text-[17px]">Get the <a href="#" class="text-[#0098ff] hover:underline">Insiders build</a>
+                    instead.</p>
             </div>
             <div class="text-center">
-                <h1 class="font-medium text-[20px] opacity-90">Use <a href="#" class="text-[#0098ff] hover:underline">vscode.dev</a> for quick edits online!</h1>
+                <h1 class="font-medium text-[20px] opacity-90">Use <a href="#"
+                        class="text-[#0098ff] hover:underline">vscode.dev</a> for quick edits online!</h1>
                 <p class="text-[20px]">GitHub, Azure Repos, and local files.</p>
             </div>
         </div>
         <div class="text-sm flex items-center flex-col text-center leading-10 bg-[#f5f5f5] py-[40px]">
             <h1 class="font-medium text-xs leading-10">LICENSE AND PRIVACY TERMS</h1>
             <p>By downloading and using Visual Studio Code, you agree to the license terms and privacy statement. VS
-                Code <br> automatically sends telemetry data and crash dumps to help us improve the product. If you would
-                prefer not <br> to have this data sent please go see How to Disable Crash Reporting to learn how to disable
+                Code <br> automatically sends telemetry data and crash dumps to help us improve the product. If you
+                would
+                prefer not <br> to have this data sent please go see How to Disable Crash Reporting to learn how to
+                disable
                 it.</p>
         </div>
-        
+
         <!-- fotter -->
         <div class="flex justify-around bg-[#000000] text-white opacity-80 py-[30px]">
             <div class="flex text-sm">
                 <p class="mr-[25px]">Hello from Seattle.</p>
-            <p> Follow @codes</p>
+                <p> Follow @codes</p>
             </div>
             <div class="flex text-sm">
-            <p class="mr-[25px]">support</p>
-            <p class="mr-[25px]">privacy</p>
-            <p class="mr-[25px]">Terms of Use</p>
-            <p class="mr-[25px]">Licence</p>
-            <div class="flex flex-col justify-center">
-                <img class="h-[20px]" src="https://code.visualstudio.com/assets/images/microsoft-logo.png" alt="" srcset="">
-                <p>© 2022 Microsoft</p>
-            </div>
+                <p class="mr-[25px]">support</p>
+                <p class="mr-[25px]">privacy</p>
+                <p class="mr-[25px]">Terms of Use</p>
+                <p class="mr-[25px]">Licence</p>
+                <div class="flex flex-col justify-center">
+                    <img class="h-[20px]" src="https://code.visualstudio.com/assets/images/microsoft-logo.png" alt=""
+                        srcset="">
+                    <p>© 2022 Microsoft</p>
+                </div>
             </div>
         </div>
     </section>
+    
 </body>
 
 </html>
