@@ -1,1 +1,1 @@
-vs code project link https://ankit-vscode.netlify.app/
+vs code project link https://vscode-tailwind-ankitdixit.netlify.app
