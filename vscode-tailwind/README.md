@@ -1,3 +1,2 @@
 # ineuron-project
-here all the projects will upload 
-vs code project link 
+vs code project link https://vscode-tailwind-ankitdixit.netlify.app
