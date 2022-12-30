@@ -1,0 +1,78 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+.container{
+  background: url(./assets/bg.png);
+  background-blend-mode: overlay;
+  min-height: 700px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    font-family: 'Poppins';
+}
+.list{
+    display: flex;
+    margin: 15px 400px 15px 0px;
+}
+.list-item{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px 20px;
+}
+nav>div>img{
+    margin-left: 150px;
+    width: 80px;
+}
+.line{
+    border-right: 2px solid white;
+    height: 40px;
+}
+.button-small{
+   padding: 10px 30px; 
+   background-color: #E600E5;
+   border-radius: 10px;
+   color: #ffffff;
+   margin-right: 150px;
+   border-style: none;
+   font-family: 'Poppins';
+}
+h1{
+    font-size: 60px;
+    inline-size: 800px;
+    word-wrap: break-word;
+    display: flex;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px;
+}
+p{
+    font-size: x-large;
+}
+.button-large{
+   padding: 10px 30px; 
+   background-color: #E600E5;
+   border-radius: 10px;
+   color: #ffffff;
+   margin-top:50px;
+   border-style: none;
+   font-size: x-large;
+}

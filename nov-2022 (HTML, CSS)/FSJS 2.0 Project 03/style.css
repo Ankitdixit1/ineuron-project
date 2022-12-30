@@ -1,0 +1,138 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+body{
+    padding: 0;
+    margin: 0;
+}
+.hero-container{
+    position: relative;
+
+}
+
+/* navbar section */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.navbar-container>div>img{
+    width: 90px;
+}
+.list{
+    display: flex;
+    padding: 0;
+}
+.list-item{
+    display: flex;
+    margin-right: 30px;
+    font-family: 'Orbitron';
+    font-weight: 400;
+} 
+.button-group{
+    display: flex;
+    
+}
+svg{
+    width: 20px;
+    opacity: 5;
+    margin-right: 5px;
+}
+.nav-button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.nav-button{
+    background-color: none;
+    padding: 5px 35px;
+    border-radius: 10px;
+    background-color:#ffffff;
+}
+li:first-child{
+    font-weight: bolder;
+    border-bottom: 3px solid black;
+}
+
+/* main hero, square design ,globe,star*/
+div>div>img{
+    width: 370px;
+    position: absolute;
+    left: 150px;
+    top: 55px;
+}
+.square>img{
+    position:absolute;
+    width: 300px;
+    margin-top: 270px;
+    margin-left: 275px;
+}
+.globe>img{
+    position: absolute;
+    float:right;
+    top: 20px;
+    width: 50px;
+    left: 750px;
+}
+.star:nth-child(3){
+    position: absolute;
+    right: 150px;
+    top: 60px;
+}
+.star:nth-child(2){
+    position: absolute;
+    bottom: 1px;
+    left: 600px;
+    top: 500px;
+}
+.star>img{
+    width: 50px;
+}
+
+/* container-right */
+.hero-container-right{
+    width: 60%;
+    float: right;
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+h1{
+    font-family: 'Orbitron';
+    font-size: 60px;
+}
+.hero-description{
+    margin:15px 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    opacity: .8;   
+}
+.hero-container-right>div>button{
+    margin-top: 50px;
+    font-family: 'Orbitron';
+}
+.button-email{
+    padding: 2px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    opacity: .7;
+    font-weight: bold;
+}
+.button-join{
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #000000;
+    font-weight: bold;
+    color: #ffffff;
+}
+.contact-heading{
+    font-family: 'Poppins';
+    margin-top: 50px;
+    opacity: .5;
+}
+.icons>span>img{
+    width: 25px;
+    margin-left: 5px;
+}
