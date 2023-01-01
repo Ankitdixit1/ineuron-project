@@ -68,7 +68,7 @@ h1 {
     top: 10px;
     font-weight: 400;
     font-size: 80px;
-    /* width: 1000px; */
+    
 
 }
 
@@ -154,23 +154,140 @@ h1 {
     
 }
 .payment-div{
-    padding: 100px 0;
+    padding: 120px 0;
 }
-.payment-h1 {
+h2{
     font-weight: 400;
-    font-size: 60px;
+    font-size: 70px;
     width: 50%;
-    margin-left: 60px;
+    
 }
-
+.payment-div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .payment-p1 {
     margin-right: 60px;
     font-size: 20px;
     width: 400px;
 }
-
-.payment-div1 {
+.payment-div2-ch{
     display: flex;
+    justify-content: space-around;
+    margin: 100px 0 0 0;
+    padding: 0 70px 0 70px;
+}
+.payment-div2-ch1{
+    height: 320px;
+    width: 370px;
+    background-color: #272727;
+    
+    
+}
+.ch1{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    position: absolute;
+    height: 320px;
+    width: 370px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+.ch1:hover{
+    margin: 0;
+    height: 322px;
+    width: 372px;
+}
+.ch2:hover{
+    margin: 0;
+    height: 322px;
+    width: 372px;
+}
+.ch2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #535150;
+    position: absolute;
+    height: 317px;
+    width: 367px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.payment-img{
+    height: 150px;
+    margin-bottom: 30px;
+}
+.ch-ch1{
+    height: 322px;
+    width: 372px;
+    background: hsla(210, 4%, 9%, 1);
+
+background: linear-gradient(135deg, hsla(210, 4%, 9%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+background: -moz-linear-gradient(135deg, hsla(210, 4%, 9%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+background: -webkit-linear-gradient(135deg, hsla(210, 4%, 9%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#161718", endColorstr="#FFFFFF", GradientType=1 );
+}
+.payment-div2-ch-1nd{
+    margin-top: 80px;
+}
+h5{
+    font-size: 25px;
+    font-weight: 500;
+}
+h4{
+    font-size: 80px;
+    font-weight: 400;
+    color: #000;
+}
+.card-div{
+    background-color: #fceffb;
+    background-image: url(assets/Photos/VCards.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 1200px;
+    padding-top:100px ;
+}
+.card-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-p{
+    color: #000000;
+    opacity: 80%;
+    width: 40%;
+    text-align: center;
+}
+.review{
+    padding: 100px 0;
+}
+.review-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.review-h2{
+    margin-left: 0;
+    width: 70%;
+    text-align: center;
+    
+}
+.review-p{
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    margin-top: 50px;
+    opacity: 80%;
 }
