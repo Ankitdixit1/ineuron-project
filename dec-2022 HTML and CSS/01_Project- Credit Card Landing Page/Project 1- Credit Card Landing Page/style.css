@@ -1,4 +1,4 @@
-body,html{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,61 +8,108 @@ body,html{
     background-color: #151515;
     color: #ffffff;
     font-family: poppins;
-    
-}
-*{
-    margin: 0;
     overflow-x: hidden;
 }
-nav{
+
+* {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 20px 80px;
-    position: sticky;
+    justify-content: space-between;
+    background: transparent;
+    background-color:rgba(21,21,21,255);
+    padding-top: 20px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.4s ease;
 }
-.navbar{
-    position: sticky;
-}
-ul{
+
+ul {
     display: flex;
 }
-li{
+
+li {
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 40px;
+    
 }
-a{
+a {
     color: #ffffff;
     text-decoration: none;
 }
-.Contact-us{
-    margin-right: 0px;
-    padding-left:20px;
+
+.Contact-us {
+    margin-right: 60px;
+    padding-left: 20px;
     background-image: url(assets/Icons/btn-pink-bg.svg);
     background-repeat: no-repeat;
     background-position: left;
 }
-strong{
-    font-weight: 520;
-    color: #f637ec; 
+header>img{
+    margin-left: 60px;
 }
-.happy-user{
+strong {
+    font-weight: 520;
+    color: #f637ec;
+}
+
+.happy-user {
     display: flex;
 }
-h1{
-    /* line-height: normal; */
-    
-    font-weight:400;
+
+h1 {
+    top: 10px;
+    font-weight: 400;
     font-size: 80px;
+    /* width: 1000px; */
+
 }
-.home-left{
-    margin: 40px 0 0 60px;
+
+.home-left {
+    padding: 40px 0 70px 60px;
+
 }
-.home-p1{
+
+.Home {
+    display: flex;
+    align-items: center;
+    background-image: url(assets/Photos/backCards.png);
+    background-repeat: no-repeat;
+    background-size: 850px;
+    background-position: right bottom 70px;
+    margin-top: 90px;
+}
+.home-right{
+    height: 600px;
+    width: 600px;
+}
+.home-right>img {
+    top: 60px;
+    left: 900px;
+    position: absolute;
+    overflow-x: hidden;
+    height: 600px;
+    transition: transform .4s;
+}
+
+.home-right>img:hover {
+    transform: scale(1.1);
+}
+
+.home-p1 {
     margin-bottom: 60px;
     font-size: 20px;
+
 }
-.home-h3{
+
+.home-h3 {
     padding-bottom: 50px;
     padding-left: 30px;
     background-size: 70px;
@@ -70,35 +117,60 @@ h1{
     background-image: url(Assets/Icons/btn-pink-bg.svg);
     font-weight: 450;
 }
-.home-div{
+
+.home-div {
     display: flex;
     align-items: center;
 }
-.home-h2{
+
+.home-h2 {
     margin-right: 15px;
     font-weight: 300;
-    font-size:50px;
+    font-size: 50px;
 }
-.happy-user img{
+
+.happy-user img {
     margin: 0 40px 0 40px;
 
 }
-.happy-user{
+
+.happy-user {
     display: flex;
     align-items: center;
 }
-.Home{
+
+.logo-div1 {
+    background-color: #292929;
+    height: 50px;
+    padding: 80px 100px;
+    
+}
+
+.logo-div2 {
+    background-color: #292929;
+    background-image: url(assets/Icons/Logo.svg);
+    height: 50px;
+    background-size: 20% 100%;
+    
+}
+.payment-div{
+    padding: 100px 0;
+}
+.payment-h1 {
+    font-weight: 400;
+    font-size: 60px;
+    width: 50%;
+    margin-left: 60px;
+}
+
+.payment-p1 {
+    margin-right: 60px;
+    font-size: 20px;
+    width: 400px;
+}
+
+.payment-div1 {
     display: flex;
     align-items: center;
-    background-image: url(assets/Photos/backCards.png);
-    background-repeat: no-repeat;
-    background-size: 800px;
-    background-position: right top;
-}
-.home-right img{
-    max-height: 600px;
-    position: absolute;
-    top: 60px;
-    left: 900px;
-    overflow: hidden;
+    justify-content: space-between;
 }
