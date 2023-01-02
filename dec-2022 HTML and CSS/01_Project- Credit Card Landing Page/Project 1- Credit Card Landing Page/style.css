@@ -306,13 +306,13 @@ h4{
 .review-ch{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     position: absolute;
     height: 250px;
     width: 480px;
     margin-top: 1px;
     margin-left: 1px;
+    padding: 0 25px;
 }
 .review-ch:hover{
     margin: 0;
@@ -320,6 +320,7 @@ h4{
     width: 482px;
 }
 .review-ch1{
+    padding: 0 15px;
     height: 252px;
     width: 482px;
     background: hsla(210, 4%, 9%, 1);
@@ -331,4 +332,8 @@ background: -moz-linear-gradient(135deg, hsla(210, 4%, 9%, 1) 0%, hsla(0, 0%, 10
 background: -webkit-linear-gradient(135deg, hsla(210, 4%, 9%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#161718", endColorstr="#FFFFFF", GradientType=1 );
+}
+.review-ch img{
+    height: 40px;
+    margin-right: 280px;
 }
