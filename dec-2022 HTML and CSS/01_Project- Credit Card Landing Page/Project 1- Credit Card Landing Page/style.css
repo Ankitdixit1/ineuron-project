@@ -320,7 +320,7 @@ h4{
     width: 482px;
 }
 .review-ch1{
-    padding: 0 15px;
+    padding: 0 25px;
     height: 252px;
     width: 482px;
     background: hsla(210, 4%, 9%, 1);
@@ -336,4 +336,70 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#161718", en
 .review-ch img{
     height: 40px;
     margin-right: 280px;
+}
+.review-slider{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.review-slider1{
+    height: 20px;
+    width: 100px;
+    background-color: #f637ec;
+    border-radius: 10px;
+}.review-slider2{
+    height: 20px;
+    width: 20px;
+    background-color: #464446;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.custom{
+    height: 450px;
+    background-color: rgba(246, 55, 236) ;
+    rotate: -3deg;
+    width: 100%;
+    display: flex;
+}
+.card h2{
+    position: absolute;
+    text-align: center;
+    rotate: -1deg;
+    width: 70%;
+    font-weight: 500;
+    top: 100px;
+}
+.card h2 strong{
+    color: #000;
+}
+.card {
+    height: 450px;
+    backdrop-filter: blur(200px);
+    background-color:rgba(59,50,59,0.1);
+    rotate: 4deg;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.card1 img{
+    height: 450px;
+}
+.footer{
+    height: 300px;
+    padding-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer img{
+    height: 50px;
+}
+.footer1{
+    margin-right: 450px;
 }
