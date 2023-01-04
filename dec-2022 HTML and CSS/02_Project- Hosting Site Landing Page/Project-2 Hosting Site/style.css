@@ -16,7 +16,7 @@ body{
 header{
     position: fixed;
     right: 0;
-    top: 0;
+    top: 10px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -60,39 +60,56 @@ header img{
 }
 strong {
     font-weight: 520;
-    color: #f637ec;
+    color: #0c8bfd;
+    font-style: oblique;
 }
 h1 {
-    top: 10px;
-    font-weight: 700;
+    line-height: 100px;
+    font-weight: 500;
     font-size: 80px;
 }
 .home-left {
-    padding: 40px 0 70px 60px;
     width: 50%;
 }
 .Home {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     background-image: url(assets/Photos/backCards.png);
     background-repeat: no-repeat;
     background-size: 850px;
     background-position: right bottom 70px;
-    margin-top: 90px;
-}
-.home-right{
-    height: 600px;
+    margin-top: 150px;
+    
 }
 .home-right>img {
     top: 60px;
-    height: 500px;
+    height: 550px;
     transition: transform .4s;
-}
-.home-right>img:hover {
-    transform: scale(1.1);
+    margin-left: 80px;
 }
 .home-p1 {
-    margin-bottom: 60px;
+    
     font-size: 20px;
+    width: 70%;
+    opacity: 80%;
+    padding: 50px 0px;
+}
+.home-left-ch>a{
+    height: 60px;
+    width: 140px;
+    text-decoration: none;
+    border-radius: 30px;
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-left-ch-a{
+    border-style: solid;
+    border-color: #ffffff;
+    margin-left: 30px;
+}
+.home-left-ch{
+    display: flex;
+    
 }
