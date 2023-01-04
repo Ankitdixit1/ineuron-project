@@ -42,3 +42,15 @@ a{
     text-decoration: none;
     color:#ffffff;
 }
+header>a{
+    height: 40px;
+    width: 100px;
+    text-decoration: none;
+    border-radius: 25px;
+    color:#ffffff;
+    background-color: #0c8bfd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+}
