@@ -92,3 +92,7 @@ h1 {
 .home-right>img:hover {
     transform: scale(1.1);
 }
+.home-p1 {
+    margin-bottom: 60px;
+    font-size: 20px;
+}
