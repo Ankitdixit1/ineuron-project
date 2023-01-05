@@ -22,7 +22,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background: transparent;
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(100px);
     background-color:rgba(59,50,59,0.1);
     padding-top: 20px;
     border-bottom: 1px solid transparent;
@@ -91,8 +91,7 @@ h1 {
     transition: transform .4s;
     margin-left: 80px;
 }
-.home-p1 {
-    
+.home-p1{
     font-size: 20px;
     width: 70%;
     opacity: 80%;
@@ -138,13 +137,13 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
-    padding: 80px 60px;
+    
 }
 h2{
     font-weight: 500;
     font-size: 60px;
     color: #000000;
+    line-height: 80px;
 }
 h5{
     font-size: 20px;
@@ -193,4 +192,86 @@ h3{
     font-weight: 500;
     color: #000;
     margin: 40px 0 15px 0;
+}
+.card-support{
+    background-color: #ffffff;
+    padding: 80px 60px;
+}
+
+/* support */
+.support-div-ch1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 700px;
+    border-radius: 60px;
+    border-style: solid;
+    border-color: #7d7777;padding: 0 40px;
+    margin-bottom: 30px;
+}
+.support-div-ch1 h4{
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+}
+.support-div-ch1:hover{
+    background-color: #0c8bfd;
+    transform: scale(1.01) translateY(-5px);
+    transition: all.40s ease;
+    border-color: #ffffff;
+}
+.support-div-ch1:hover h4{
+    color: #ffffff;
+}
+.support{
+    margin: 160px 60px 0 60px;
+}
+.support-div{
+    display: flex;
+    margin-top: 60px;
+}
+.support-div2{
+    background-color: #000000;
+    padding: 30px 30px;
+    border-radius: 40px;
+    margin-left: 50px;
+}
+.support-div2-ch{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 400px;
+    border-radius: 30px;
+    background-color: #292929;
+    margin-bottom: 15px;
+    padding: 0 0 0 25px;
+}
+.support-div2-ch div{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    margin-right: 10px;
+}
+.support-div2-ch p{
+    font-size: 17px;
+}
+/* hosting */
+.hosting{
+    padding: 40px 100px;
+}
+.hosting-div1{
+    display: flex;
+    justify-content: space-around;
+}
+.hosting-div1 h2{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 400;
+    width: 60%;
+    text-align: center;
+}
+.hosting-div1 img{
+    margin-top: 60px;
 }
