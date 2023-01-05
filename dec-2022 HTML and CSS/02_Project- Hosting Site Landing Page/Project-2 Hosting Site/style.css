@@ -60,6 +60,8 @@ header>a{
 header img{
     margin-left: 70px;
 }
+
+/* home */
 strong {
     font-weight: 520;
     color: #0c8bfd;
@@ -115,6 +117,8 @@ h1 {
     display: flex;
     
 }
+
+/* logo */
 .logo-div1 {
     background-color: #292929;
     height: 50px;
@@ -126,5 +130,24 @@ h1 {
     background-image: url(assets/Logo.svg);
     height: 50px;
     background-size: 25% 100%;
-    
+}
+
+/* card */
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+h2{
+    font-weight: 300;
+    font-size: 50px;
+    color: #000000;
+    width: 100%;
+}
+.h5{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
 }
