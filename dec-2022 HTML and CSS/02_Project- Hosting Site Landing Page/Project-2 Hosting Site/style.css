@@ -324,3 +324,14 @@ hr{
 .hosting-div2-ch1 h4{
     color: #000;
 }
+.hosting-div2-ch>a{
+    display: inline-block;
+    height: 55px;
+    width: 100%;
+    border-radius: 30px;
+    background-color: #0c8bfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
