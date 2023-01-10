@@ -403,7 +403,7 @@ hr {
 
 .review-div1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -424,7 +424,8 @@ hr {
     color: #ffffff;
     padding: 50px;
     border-radius: 30px;
-    width: 50%;
+    width: 42%;
+    margin-left: 70px;
 }
 
 .review-div2-ch1 h3, .review-div2-ch2 h3{
@@ -439,6 +440,7 @@ hr {
 
 .review-div2 {
     display: flex;
+    margin-top: 80px ;
 }
 
 .review-div2-ch2 {
@@ -446,7 +448,7 @@ hr {
     border-style: solid;
     border-width: 1px;
     position: absolute;
-    width: 50%;
+    width: 40%;
     padding: 50px;
     border-radius: 30px;
     left: 900px;
