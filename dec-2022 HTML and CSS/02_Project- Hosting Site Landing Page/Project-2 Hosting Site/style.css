@@ -441,6 +441,7 @@ hr {
 .review-div2 {
     display: flex;
     margin-top: 80px ;
+    margin-bottom: 90px;
 }
 
 .review-div2-ch2 {
@@ -452,4 +453,8 @@ hr {
     padding: 50px;
     border-radius: 30px;
     left: 900px;
+}
+input{
+    width: 100%;
+    margin-left: 70px;
 }
