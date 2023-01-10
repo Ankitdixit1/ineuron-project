@@ -438,3 +438,8 @@ hr {
     font-weight: 500;
 }
 
+.review-div2 {
+    display: flex;
+    margin-top: 80px ;
+    margin-bottom: 90px;
+}
