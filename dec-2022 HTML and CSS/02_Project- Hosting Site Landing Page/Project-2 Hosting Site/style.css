@@ -347,5 +347,17 @@ hr{
     color: #000000;
 }
 .review-div1{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review-div1 p{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 50%;
+    width: 40%;
+}
+.review-div1 h2{
+    font-size: 50px;
+    width: 40%;
 }
