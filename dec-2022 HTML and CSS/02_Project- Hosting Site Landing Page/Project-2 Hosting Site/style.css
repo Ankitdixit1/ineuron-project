@@ -500,7 +500,7 @@ form a{
     padding: 25px 45px;
     border-radius: 50px;
 }
-.footer-div1 hr{
+.footer-div1 hr, .footer-div hr{
     width: 100%;
     background-color: #3e3d3d;
     outline: none;
@@ -510,8 +510,20 @@ form a{
 .footer-div2-ch ul{
     display: flex;
     flex-direction: column;
+    padding: 0;
+}
+.footer-div2-ch ul li{
+    margin-bottom: 10px;
+}
+.footer-div2-ch p{
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 .footer-div2{
     display: flex;
-
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.footer-div{
+    margin-bottom: 60px;
 }
