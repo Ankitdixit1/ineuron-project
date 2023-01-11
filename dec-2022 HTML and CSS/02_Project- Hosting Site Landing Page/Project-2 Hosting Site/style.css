@@ -470,6 +470,9 @@ hr {
     justify-content: center;
     align-items: center;
 }
+footer{
+    padding: 0 150px;
+}
 .footer-div1-ch{
     background-color: #292828;
     padding: 50px 40px;
@@ -495,4 +498,11 @@ form a{
     text-align: center;
     padding: 25px 45px;
     border-radius: 50px;
+}
+.footer-div1 hr{
+    width: 100%;
+    background-color: #3e3d3d;
+    outline: none;
+    border-color: #3e3d3d;
+    height: 1.5px;
 }
