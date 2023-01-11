@@ -30,6 +30,7 @@ header {
     border-bottom: 1px solid transparent;
     transition: all 0.4s ease;
     padding: 5px 0px;
+    z-index: 1;
 }
 
 ul {
@@ -505,4 +506,12 @@ form a{
     outline: none;
     border-color: #3e3d3d;
     height: 1.5px;
+}
+.footer-div2-ch ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer-div2{
+    display: flex;
+
 }
