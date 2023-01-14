@@ -194,6 +194,13 @@ h1 {
     background-position: 80%;
     background-size: 650px;
 }
+.popular-div-ch1{
+    height: 350px;
+    width: 300px;
+    background-image: url(assets/Photos/image\ 3.png);
+    background-position-x: 48%;
+    background-size: 600px;
+}
 .popular-div-ch img{
     /* height: 350px;
     width: 300px;
