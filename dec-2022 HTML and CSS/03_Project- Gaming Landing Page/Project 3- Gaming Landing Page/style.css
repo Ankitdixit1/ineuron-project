@@ -149,6 +149,23 @@ h1 {
 .home-right>img{
     margin-top: 150px;
 }
+.home-left a:nth-child(3):hover{
+    background-color: #ffffff;
+    color: #f4694c;
+    border-bottom: 4px solid #f4694c;
+    transform: scale(1.01) translateY(-5px);
+    transition: all.50s ease;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.home-left a:nth-child(4):hover{
+    color: #ffffff;
+    border-bottom: 4px solid #ffffff;
+    transform: scale(1.01) translateY(-5px);
+    transition: all.50s ease;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 .home-right-ch{
     display: flex;
     justify-content: center;
