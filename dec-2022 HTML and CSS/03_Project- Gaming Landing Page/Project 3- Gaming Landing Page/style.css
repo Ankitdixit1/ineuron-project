@@ -182,3 +182,22 @@ h1 {
     font-weight: 700;
     text-align: center;
 }
+.popular-div{
+    display: flex;
+}
+.popular-div-ch{
+    height: 350px;
+    width: 300px;
+    /* background-color: #f4694c; */
+    background-image: url(assets/Photos/image\ 2.png);
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: 650px;
+}
+.popular-div-ch img{
+    /* height: 350px;
+    width: 300px;
+    object-fit: cover;
+    object-position: 80% 100%; */
+    
+}
