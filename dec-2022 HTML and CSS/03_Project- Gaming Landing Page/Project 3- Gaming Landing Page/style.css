@@ -201,6 +201,9 @@ h1 {
     background-position-x: 48%;
     background-size: 600px;
 }
+.popular-div-ch2{
+    background-image: url(assets/Photos/image\ 4.png);
+}
 .popular-div-ch img{
     /* height: 350px;
     width: 300px;
