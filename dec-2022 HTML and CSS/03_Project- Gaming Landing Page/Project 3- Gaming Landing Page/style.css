@@ -197,21 +197,18 @@ h1 {
 .popular-div-ch1{
     height: 350px;
     width: 300px;
-    background-image: url(assets/Photos/image\ 3.png);
-    background-position-x: 48%;
-    background-size: 600px;
+    background-image: url(assets/Photos/image\ 4.png);
+    background-position-x: 50%;
+    background-size: 640px;
+    
 }
 .popular-div-ch2{
     height: 350px;
     width: 300px;
-    background-image: url(assets/Photos/image\ 4.png);
+    background-image: url(assets/Photos/image\ 3.png);
     background-position-x: 48%;
     background-size: 600px;
 }
-.popular-div-ch img{
-    /* height: 350px;
-    width: 300px;
-    object-fit: cover;
-    object-position: 80% 100%; */
+.popular-div-ch3 {
     
 }
