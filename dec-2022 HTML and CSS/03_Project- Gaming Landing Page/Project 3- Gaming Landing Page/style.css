@@ -184,6 +184,8 @@ h1 {
 }
 .popular-div{
     display: flex;
+    justify-content: space-between;
+    margin: 50px 50px 0 50px;
 }
 .popular-div-ch{
     height: 350px;
@@ -193,6 +195,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: 80%;
     background-size: 650px;
+    position: relative;
 }
 .popular-div-ch1{
     height: 350px;
@@ -215,4 +218,19 @@ h1 {
     background-image: url(assets/Photos/Rectangle\ 56.png);
     background-position-x: 48%;
     background-size: 620px;
+}
+.popular-div-ch div{
+    width: 100%;
+    background-color: rgba(59,50,59,0.5);
+    /* background: transparent; */
+    backdrop-filter: blur(20px);
+    color: #ffffff;
+    position: absolute;
+    bottom: 0px;
+}
+.popular-div-ch>div>div{
+    background-color: rgba(59,50,59,0.5);
+    /* background: transparent; */
+    backdrop-filter: blur(20px);
+    position: absolute;
 }
