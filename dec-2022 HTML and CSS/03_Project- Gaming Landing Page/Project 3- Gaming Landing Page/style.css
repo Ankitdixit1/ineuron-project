@@ -203,6 +203,7 @@ h1 {
     background-image: url(assets/Photos/image\ 4.png);
     background-position-x: 50%;
     background-size: 640px;
+    position: relative;
     
 }
 .popular-div-ch2{
@@ -211,6 +212,7 @@ h1 {
     background-image: url(assets/Photos/image\ 3.png);
     background-position-x: 48%;
     background-size: 600px;
+    position: relative;
 }
 .popular-div-ch3 {
     height: 350px;
@@ -218,18 +220,30 @@ h1 {
     background-image: url(assets/Photos/Rectangle\ 56.png);
     background-position-x: 48%;
     background-size: 620px;
+    position: relative;
 }
-.popular-div-ch div{
-    width: 100%;
+.popular-star div{
+    width: 285px;
     background-color: rgba(59,50,59,0.5);
-    /* background: transparent; */
-    backdrop-filter: blur(20px);
+    background: transparent;
+    backdrop-filter: blur(10px);
     color: #ffffff;
     position: absolute;
     bottom: 0px;
+    padding: 15px 0px 15px 15px;
 }
-.popular-div-ch div h3{
-    
+.popular-star div h3, h5{
+    font-weight: 400;
+}
+.popular-star div a{
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #f4694c;
+    position: absolute;
+    right: 15px;
+    bottom: 30px;
 }
 /* .popular-div-ch>div>div{
     background-color: rgba(59,50,59,0.5);
