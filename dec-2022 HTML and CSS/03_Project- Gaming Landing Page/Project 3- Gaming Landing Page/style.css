@@ -250,3 +250,12 @@ h1 {
     backdrop-filter: blur(20px);
     background: transparent;
 } */
+
+/* pumping */
+.pumping{
+    display: flex;
+    margin: 30px 55px;
+}
+.pumping img{
+    width: 50%;
+}
