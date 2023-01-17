@@ -176,7 +176,7 @@ h1 {
 .full-div{
     margin: 200px 60px
 }   
-.popular h2{
+h2{
     color: #000;
     font-size: 40px;
     font-weight: 700;
@@ -249,12 +249,11 @@ h1 {
 /* pumping */
 .pumping{
     display: flex;
-    margin: 30px 55px;
+    margin: 30px 50px;
 }
-.pumping-div1{
-    
-}
+
 .pumping img{
     width: 500px;
     height: 400px;
+    object-fit: cover;
 }
