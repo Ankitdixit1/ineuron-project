@@ -228,9 +228,11 @@ h1 {
     position: absolute;
     bottom: 0px;
 }
-.popular-div-ch>div>div{
-    background-color: rgba(59,50,59,0.5);
-    /* background: transparent; */
-    backdrop-filter: blur(20px);
-    position: absolute;
+.popular-div-ch div h3{
+    
 }
+/* .popular-div-ch>div>div{
+    background-color: rgba(59,50,59,0.5);
+    backdrop-filter: blur(20px);
+    background: transparent;
+} */
