@@ -245,17 +245,16 @@ h1 {
     right: 15px;
     bottom: 30px;
 }
-/* .popular-div-ch>div>div{
-    background-color: rgba(59,50,59,0.5);
-    backdrop-filter: blur(20px);
-    background: transparent;
-} */
 
 /* pumping */
 .pumping{
     display: flex;
     margin: 30px 55px;
 }
+.pumping-div1{
+    
+}
 .pumping img{
-    width: 50%;
+    width: 500px;
+    height: 400px;
 }
