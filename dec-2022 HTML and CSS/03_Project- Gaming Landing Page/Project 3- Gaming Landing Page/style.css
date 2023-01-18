@@ -237,6 +237,9 @@ h2{
 .popular-star div h3, h5{
     font-weight: 400;
 }
+.popular-star div h5{
+    opacity: 60%;
+}
 .popular-star div a{
     display: inline-block;
     padding: 6px 10px;
@@ -251,7 +254,7 @@ h2{
 /* pumping */
 .pumping{
     display: flex;
-    margin: 150px 50px;
+    margin: 180px 50px;
 }
 .pumping img{
     width: 550px;
@@ -278,13 +281,55 @@ h2{
 .game-div1{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
 }
 .game-div1 div img:nth-child(1){
-    padding: 30px 20px;
+    padding: 25px 20px;
     background-color: #fde1db;
 }
 .game-div1 div img:nth-child(2){
-    padding: 30px 20px;
+    padding: 26px 20px;
     background-color: #f4694c;
-    width: 30px;
+    width: 28px;
+    margin-left: 20px;
+}
+.game-div2{
+    /* background-color: #000; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px 300px;
+    column-gap: 20px;
+    row-gap: 80px;
+}
+.game-div-ch1 img{
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+}
+.game-div-ch1{
+    display: flex;
+    /* align-items: center; */
+    
+}
+.game-div-ch1-ch{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px 0 ;
+    
+}
+.game-div-ch1-ch h4{
+    font-size: 26px;
+}
+.game-div-ch1-ch h5{
+    color: #f4694c;
+    font-size: medium;
+    font-weight: 500;
+    
+}
+.game-div-ch1-ch p{
+    opacity: 60%;
 }
