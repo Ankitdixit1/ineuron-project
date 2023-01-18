@@ -348,6 +348,7 @@ h2{
 }
 .played-div{
     display: flex;
+    margin-top: 50px;
 }
 .played-div-ch1 img{
     height: 500px;
@@ -366,4 +367,9 @@ h2{
     object-fit: contain;
     margin-top: 380px;
     margin-left: 50px;
+}
+.played-div-ch2  p{
+    opacity: 60%;
+    position: absolute;
+    margin-top: 50px;
 }
