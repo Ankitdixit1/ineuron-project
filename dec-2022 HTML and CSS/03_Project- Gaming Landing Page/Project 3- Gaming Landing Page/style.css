@@ -333,3 +333,37 @@ h2{
 .game-div-ch1-ch p{
     opacity: 60%;
 }
+
+/* played */
+.played{
+    background-color: #000;
+    color: #ffffff;
+    padding: 60px 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.played h2{
+    color: #ffffff;
+}
+.played-div{
+    display: flex;
+}
+.played-div-ch1 img{
+    height: 500px;
+    width: 550px;
+    object-fit: contain;    
+}
+.played-div-ch2 img{
+    height: 450px;
+    width: 350px;
+    object-fit: contain;
+    margin-top: 200px;
+}
+.played-div-ch3 img{
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+    margin-top: 380px;
+    margin-left: 50px;
+}
