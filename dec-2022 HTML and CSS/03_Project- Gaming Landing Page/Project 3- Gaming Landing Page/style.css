@@ -110,7 +110,7 @@ h1 {
 .home-left{
     margin-left: 100px;
 }
-.home-left a {
+.home-a {
     display: inline-block;
     padding: 15px 30px;
     font-size: 18px;
@@ -118,7 +118,9 @@ h1 {
     background-color: #f4694c;
 }
 
-.home-left a:nth-child(4) {
+.home-a2 {
+    display: inline-block;
+    padding: 15px 30px;
     background-color: transparent;
     border: 1px solid #ffff;
     margin-left: 20px;  
@@ -249,11 +251,22 @@ h2{
 /* pumping */
 .pumping{
     display: flex;
-    margin: 30px 50px;
+    margin: 150px 50px;
 }
-
 .pumping img{
-    width: 500px;
+    width: 550px;
     height: 400px;
     object-fit: cover;
+}
+.pumping div p{
+    margin: 20px 0;
+    opacity: 80%;
+}
+.popular-a2{
+    color: #f4694c;
+    border-color: #f4694c;
+}
+.pumping div{
+    margin-left: 100px;
+    margin-top: 10px;
 }
