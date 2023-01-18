@@ -270,3 +270,21 @@ h2{
     margin-left: 100px;
     margin-top: 10px;
 }
+
+/* Game */
+.game{
+    margin: 0px 50px;
+}
+.game-div1{
+    display: flex;
+    justify-content: space-between;
+}
+.game-div1 div img:nth-child(1){
+    padding: 30px 20px;
+    background-color: #fde1db;
+}
+.game-div1 div img:nth-child(2){
+    padding: 30px 20px;
+    background-color: #f4694c;
+    width: 30px;
+}
