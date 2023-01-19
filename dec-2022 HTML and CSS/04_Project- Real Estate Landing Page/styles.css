@@ -262,3 +262,23 @@ padding: 12px 30px;
 .modern-right{
     margin-left: 100px;
 }
+.next img:nth-child(2){
+    left: 60px;
+    bottom: 100px;
+}
+.new{
+    padding: 50px 60px;
+}
+.new-div{
+    background-color: #6663e9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+.new-div h1{
+    font-size: 60px;
+    width: 900px;
+    text-align: center;
+}
