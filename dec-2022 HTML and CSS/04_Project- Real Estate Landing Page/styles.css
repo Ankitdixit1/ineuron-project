@@ -29,11 +29,20 @@ nav {
 ul {
     display: flex;
 }
-
+.hr-line{
+    padding: 0 30px;
+    width: 1200px;
+    margin: 120px 0 0 100px;
+    height: 0.1px;
+    background-color: azure;
+    position: fixed;
+}
 li {
     list-style-type: none;
     margin-right: 40px;
-    opacity: 60%;
+    opacity: 60%;   
+    font-size: 20px;
+    font-weight: 300;
 }
 
 li:hover {
@@ -59,7 +68,10 @@ section{
     background-color:rgba(0,0,0,0.5);
 }
 nav img {
-    margin-left: 100px;
+    margin-left: 140px;
+}
+nav ul li:nth-child(4){
+    margin-right: 200px;
 }
 /* home */
 .home {
@@ -85,7 +97,7 @@ h1 {
     font-weight: 400;
 }
 .home-left{
-    margin-left: 100px;
+    margin-left: 140px;
 }
 .home-a {
     display: inline-block;
@@ -102,4 +114,21 @@ h1 {
     transform: scale(1.01) translateY(-5px);
     transition: all.50s ease;
     
+}
+.logo{
+    width: 1350px;
+    height: 50px;
+    background-color: #ffffff;
+    padding: 60px 40px;
+    margin: 0 0 0 40px;
+    position: absolute;  
+    border-radius: 30px;
+    top: 700px;
+}
+.logo-div{
+    height: 40px;
+    width: 100%;
+    background-image: url(Icons/logoName.svg);
+    /* background-repeat: no-repeat; */
+    background-size: 20% 40px;
 }
