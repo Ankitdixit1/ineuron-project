@@ -129,6 +129,99 @@ h1 {
     height: 40px;
     width: 100%;
     background-image: url(Icons/logoName.svg);
-    /* background-repeat: no-repeat; */
     background-size: 20% 40px;
+}
+/* estate */
+.estate{
+    padding: 150px 0;
+    background-color: #f6f8fa;
+
+}
+.state{
+    display: flex;
+    margin: 0 140px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.estate h2{
+    font-size: 60px;
+    font-weight: 600;
+    color: #000;  
+    text-align: center;  
+}
+.estate-div{
+    height: 420px;
+    width: 380px;
+    background-image: url(Photos/cardImage1.png);
+    border-radius: 25px;
+    background-position: center;
+    background-size: 750px;
+    position: relative;
+    
+}
+.estate-div-ch{
+    position: absolute;
+    top: 350px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;padding: 10px 20px;
+    left: 15px;
+    height: 100px;
+    width: 300px;
+    border-radius: 20px;
+    /* box-shadow: 10px 20px rgba(0,0,0,0.01); */
+}
+.estate-div-ch div:nth-child(1) h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+.estate-div-ch div:nth-child(1) p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #6663e9;
+    margin-top: 10px;
+}
+.estate-div-ch div:nth-child(2) a{
+padding: 12px 30px;
+}
+.cardimage2{
+    background-image: url(photos/cardImage2.png);
+    background-size: 590px 100%;
+    background-position: 0px;
+    margin-top: 30px;
+}
+.cardimage3{
+    background-image: url(photos/cardImage3.png);
+    background-size: 750px 100%;
+    margin-top: 60px;
+}
+.cardimage4{
+    background-image: url(photos/cardImage4.png);
+    margin-top: 60px;
+}
+.cardimage5{
+    background-image: url(photos/cardImage5.png);
+    margin-top: 30px;
+}
+.cardimage6{
+    background-image: url(photos/cardImage6.png);
+}
+.state1{
+    margin-top: 100px;
+}
+.state2{
+    margin-top: 100px;
+}
+.cardimage7{
+    background-image: url(photos/cardImage7.png);
+    
+}
+.cardimage8{
+    background-image: url(photos/cardImage8.png);
+    margin-top: 30px;
+}
+.cardimage9{
+    background-image: url(photos/cardImage9.png);
+    margin-top: 60px;
 }
