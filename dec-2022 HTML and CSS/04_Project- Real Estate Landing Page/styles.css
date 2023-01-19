@@ -249,7 +249,7 @@ padding: 12px 30px;
 }
 .modern-right h1{
     color: #000;
-    
+    font-size: 62px;
     margin-top: 100px;
 }
 .modern-right p{
@@ -257,7 +257,7 @@ padding: 12px 30px;
     font-weight: 600;
     font-size: 18px;
     opacity: 60%;
-    margin: 20px 0;
+    margin: 20px 0 41px 0;
 }
 .modern-right{
     margin-left: 100px;
