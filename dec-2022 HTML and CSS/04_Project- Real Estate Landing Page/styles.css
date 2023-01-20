@@ -317,3 +317,31 @@ input{
     padding: 15px 40px;
     font-weight: 500;
 }
+
+.footer-div2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6f8fa;
+    color: #000000;
+    padding: 50px 130px;
+}
+.footer-div2-ch ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.footer-div2-ch ul li{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.footer-div2-ch p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.footer-div p{
+    margin: 20px 0;
+}
+.footer-div div img{
+    margin-left: 10px;
+}
+
