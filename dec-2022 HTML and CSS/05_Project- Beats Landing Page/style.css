@@ -24,6 +24,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+    z-index: 1;
 }
 
 nav{
@@ -115,7 +116,6 @@ strong{
 .specs{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin: 0 0 0 260px;
 }
@@ -165,9 +165,104 @@ margin-right: 100px;
     border-radius: 10px;
     position: relative;
     margin-top: 50px;
+    z-index: -1;
 }
-.specs-left img{
+.case-left img{
     margin-right: 10px;
     position: absolute;
     left: 12px;
+}
+/* music */
+.music{
+    background-color: #1e1e21;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    margin-left: 350px;
+    border-radius: 20px;
+}
+.music-left h3{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.music-left h5{
+    font-size: 18px;
+    font-weight: 200;
+    margin: 16px 0;
+}
+.music-left a{
+    background-color: #0f0f10;
+    padding: 15px 35px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    border-radius: 10px;
+}
+.music-left img{
+    margin-right: 13px;
+}
+.music-right:hover{
+    transform: scale(1.1) ;
+    transition: all.70s ease;
+}
+
+/* style */
+.style{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.style-div-ch1{
+    background-color: #1e1e21;
+    height: 150px;
+    width: 170px;
+    border-radius: 10px;
+    margin-left: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.style-div-ch1>img{
+    height: 130px;
+    position: absolute;
+    bottom: 75px;
+}
+.style-div-ch1>img:hover{
+    transform: scale(1.1) ;
+    transition: all.70s ease;
+}
+.style-div-ch1 div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.style-div-ch1 h3{
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.style-div-ch1 div img{
+    background-color: #0f0f10;
+    padding: 10px 10px;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.style-div-ch-top{
+    display: flex;
+    margin-top: 150px;
+}
+.style-div-ch-bottom{
+    display: flex;
+    margin-top: 100px;
 }
