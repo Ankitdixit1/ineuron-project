@@ -7,7 +7,7 @@ body {
     font-family: poppins;
     overflow-x: hidden;
     color: #ffffff;
-    background-color: #000000;
+    background-color: #0f0f10;
 }
 
 * {
@@ -137,4 +137,37 @@ margin-right: 100px;
 }
 .specs-left-ch:nth-child(1), .specs-left-ch:nth-child(4){
     margin-left: 20px;
+}
+.specs-right:hover{
+    transform: scale(1.1) translateY(-5px);
+    transition: all.70s ease;
+}
+
+/* case */
+.case{
+    margin-top: 200px ;
+    margin-bottom: 200px ;
+}
+.specs-left-ch-case-img{
+    margin-right: 60px;
+}
+.case>img{
+    margin-bottom: 50px;
+}
+.specs-left p{
+    opacity: 60%;
+    line-height: 30px;
+}
+.specs-left a{
+    display: inline-block;
+    padding: 15px 30px 15px 50px;
+    background-color: #1e1e21;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 50px;
+}
+.specs-left img{
+    margin-right: 10px;
+    position: absolute;
+    left: 12px;
 }
