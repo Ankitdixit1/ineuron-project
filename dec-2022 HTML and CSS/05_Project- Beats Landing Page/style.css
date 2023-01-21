@@ -266,3 +266,6 @@ margin-right: 100px;
     display: flex;
     margin-top: 100px;
 }
+input{
+    width: 150px;
+}
