@@ -20,7 +20,12 @@ body {
     background-repeat: no-repeat;
     background-size: 300px;
     background-position: 450px -146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
+
 nav{
     top: 0;
     left: 0;
@@ -56,4 +61,80 @@ nav img{
     margin-left: 370px;
     width: 30px;
     height: 30px;
+}
+
+
+/* home */
+.home{
+    margin-right: 170px;
+    margin-bottom: 30px;
+}
+.home>img{
+    margin-left: 60px;
+}
+h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.home-div h2{
+    margin-top: 40px;
+}
+.home-div p{
+    line-height: 32px;
+    margin: 20px 0 30px 0;
+}
+.home-div a{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #1e1e21;
+    border-radius: 10px;
+}
+strong{
+    margin-left: 20px;
+}
+.home-div img{
+    margin-right: 10px;
+}
+/* logo */
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-items: center;
+    margin: 150px 230px 150px 0;
+}
+.logo img{
+    margin-left: 160px;
+}
+
+/* specs */
+.specs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 260px;
+}
+.specs-div{
+    display: flex;
+    align-items: center;
+}
+.specs-left{
+margin-right: 100px;
+}
+.specs-left-ch h3{
+    font-weight: 500;
+}
+.specs-left-ch h5{
+    font-weight: 200;
+}
+.specs-left-ch{
+    margin-bottom: 20px;
+}
+.specs-left-ch:nth-child(1), .specs-left-ch:nth-child(4){
+    margin-left: 20px;
 }
