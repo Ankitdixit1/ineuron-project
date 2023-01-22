@@ -237,7 +237,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 200px 0;
+    margin: 300px 0 200px 0;
 }
 .form-left h2{
     font-size: 35px;
@@ -295,6 +295,7 @@ input{
     outline: none;
     padding: 15px 0 15px 10px;
     margin: 10px 0;
+    border-radius: 5px;
 }
 .form-right h3{
     font-size: 25px;
@@ -315,4 +316,59 @@ input{
 .form-right hr{
     width: 100%;
     margin: 10px 0;
+}
+
+/* footer */
+.footer-div-ch ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+.footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 110px 100px 200px;
+    background-color: #fbfcff;
+}
+.footer-div-ch ul li{
+    font-weight: 200;
+    opacity: 80%;
+    line-height: 30px;
+}
+.footer-div-ch ul li:nth-child(1){
+    font-weight: 700;
+    font-size: 20px;
+    opacity: 100%;
+    margin-bottom: 15px;
+}
+.footer-div{
+    display: flex;
+}
+.footer-div-ch input{
+    width: 150px;
+    height: 20px;
+    border: 0;
+    outline: 0;
+    color: #ffffff;
+    padding-left:15px ;
+    border-radius: 10px;
+    margin-left: 30px;
+    color: #000;
+}
+.footer-div-ch1 img{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+.footer-div-ch1{
+    position: relative;
+}
+.footer>div>p{
+    width: 300px;
+    margin: 15px 0;
+}
+.footer div div img{
+    margin-left: 10px;
 }
