@@ -307,4 +307,9 @@ input{
 .form-right img{
     margin: 10px 0;
 }
+.form-right h5 a{
+    background-color: transparent;
+    color: #722ed1;
+    padding: 0;
+}
 
