@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: poppins;
+    overflow-x: hidden;
+    
+}
+
+* {
+    margin: 0;
+}
+.nav-home{
+    background: linear-gradient(180deg, #fdfeff 10%, #e2f1ff 90%);
+    rotate: -5deg;
+    width: 1600px ;
+    height: 650px;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+nav{
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+    z-index: 1;
+}
+ul{
+    display: flex;
+    align-items: center;
+    
+}
+li{
+    list-style: none;
+    margin-left: 40px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: #722ed1;
+    padding: 8px 20px;
+    border-radius: 30px;
+}
+ul a{
+    margin-left: 40px;
+    padding: 8px 20px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #722ed1;
+}
+
+
+
+/* home */
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+}
+.home>img{
+    margin-left: 60px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.home h1{
+    margin: 20px 0;
+}
+/* h2{
+    font-size: 20px;
+    font-weight: 500;
+} */
+/* .home-div h2{
+    margin-top: 40px;
+} */
+.home-div p{
+    line-height: 32px;
+    margin: 20px 0 30px 0;
+    opacity: 70%;
+}
+/* .home-div a{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #1e1e21;
+    border-radius: 10px;
+} */
+.home-right img{
+    margin-left: 10px;
+}
+.home-div div{
+    background-color: #f7f1ff;
+    border-radius: 30px;
+    padding: 0 0 0 20px;
+    width: 250px;
+    color: #722ed1;
+}
+.home-div div a{
+    text-decoration: underline;
+    background-color: transparent;
+    padding: 10px 0;
+    display: inline-block;
+}
+.home-div a:nth-child(4){
+    background-color: #722ed1;
+    color: #fdfeff;
+    
+}
+.home-div a:nth-child(5){
+    background-color: #ffffff;
+    color: #722ed1;
+    margin-left: 30px;
+}
+.home-div{
+    margin-right: 150px;
+}
