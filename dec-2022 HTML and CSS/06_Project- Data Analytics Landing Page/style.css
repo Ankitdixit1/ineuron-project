@@ -171,7 +171,137 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 100px 0;
 }
 .launch-right a{
     background-color: #f7f1ff;
+    margin-bottom: 20px;
 }
+.launch-right h2{
+    margin: 20px 0;
+}
+.launch-right p{
+    width: 490px;
+}
+.launch-right{
+    margin-left: 100px;
+}
+/* driven */
+
+.driven p{
+    width: 500px;
+}
+.driven-main{
+    margin-left: 100px;
+}
+
+/* profile */
+.pro{
+    z-index: -1;
+    position: absolute;
+    height: 150%;
+    width: 105%;
+    background-color: #f7f8ff;
+    rotate: -5deg;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin: 200px 0;
+}
+.profile h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+.profile>img{
+    margin: 20px 0;
+}
+.profile-div img{
+    margin: 0 40px;
+}
+.profile h5{
+    font-size: 15px;
+    font-weight: 700;
+}
+.profile-div{
+    padding-top: 30px;
+    border-top: 2px solid #eae0fc;
+    margin-top: 30px;
+}
+/* form */
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+}
+.form-left h2{
+    font-size: 35px;
+}
+.form-left-ch1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.form-left-ch1 hr{
+    rotate: 90deg;
+    height: 140px;
+}
+.form-left-ch1 p{
+    margin: 0 90px;
+}
+.form-left-ch2{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px;
+}
+.form-right-ch1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfeff;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: -20px;
+}
+.form-right{
+    background-color: #eae0fc;
+    padding: 30px 30px;
+    border-radius: 10px;
+    position: relative;
+    height: 460px;
+    width: 450px;
+    margin-left: 50px;
+}
+.form-right a{
+    background-color: #722ed1;
+    color: #e2f1ff;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    padding: 15px 0;
+}
+input{
+    width: 350px;
+    border: 1px solid #eae0fc;
+    outline: none;
+    padding: 15px 0 15px 10px;
+    margin: 10px 0;
+}
+.form-right h3{
+    font-size: 25px;
+}
+.form-right h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
