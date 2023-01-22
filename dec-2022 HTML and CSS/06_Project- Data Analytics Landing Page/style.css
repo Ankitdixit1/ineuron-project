@@ -88,6 +88,8 @@ h1{
 .home-div p{
     line-height: 32px;
     margin: 20px 0 30px 0;
+}
+p{
     opacity: 70%;
 }
 /* .home-div a{
@@ -124,4 +126,52 @@ h1{
 }
 .home-div{
     margin-right: 150px;
+}
+/* data */
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 300px;
+}
+.data h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.data a {
+    background-color: #f7f1ff;
+    
+}
+.data-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.data-left p{
+    width: 700px;
+}
+.data-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+.data-right-ch p{
+    width: 320px;
+}
+.data-right-ch{
+    margin: 0 10px;
+}
+
+/* launch */
+.launch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.launch-right a{
+    background-color: #f7f1ff;
 }
