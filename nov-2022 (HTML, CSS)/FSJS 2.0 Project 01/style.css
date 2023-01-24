@@ -12,7 +12,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin: 30px 150px 25px 150px; */
+    margin: 30px 150px 25px 150px;
 }
 nav div img{
     width: 80px;
