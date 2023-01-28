@@ -1,12 +1,11 @@
 // string
-let name = 'Ankit';
+let name =  "ankit";
 console.log(typeof name);
 
 // boolean
 let abc = 15;
 let cs = 20;
 let all = abc>cs;
-console.log(all);
 console.log(typeof all);
 
 // undefined
