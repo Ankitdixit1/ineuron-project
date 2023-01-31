@@ -1,6 +1,6 @@
 let x = prompt('give no ');
 if (x>100){
-    document.getElementById('p').innerHTML = "out range"
+    document.getElementById('p').innerHTML = "out of range"
 } else if(x>=80 && x<=100){
     document.getElementById('p').innerHTML = "A grade"
 }else if(x>=70) {
