@@ -34,5 +34,5 @@ console.log(dol);
 let le = Math.abs(Math.min(...ages)-hold(ages));
 console.log(le);
 
-let he = Math.abs(Math.max(...ages)-hold(ages));
-console.log(he);
+// let he = Math.abs(Math.max(...ages)-hold(ages));
+// console.log(he);
