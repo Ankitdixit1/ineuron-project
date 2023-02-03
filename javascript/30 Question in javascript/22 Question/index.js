@@ -1,19 +1,19 @@
 const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
 
 // Sort the array and find the min and max age
-// console.log(ages.sort());
-// console.log(Math.max(...ages));
-// console.log(Math.min(...ages));
+console.log(ages.sort());
+console.log(Math.max(...ages));
+console.log(Math.min(...ages));
 
-// // Find the median age(one middle item or two middle items divided by two)
+// Find the median age(one middle item or two middle items divided by two)
 
-//     if (ages.length%2==0){
-//         let y = (ages[(ages.length/2)-1] + ages[(ages.length/2)])/2;
-//         console.log(y);
-//     }else{
-//         let s = ages[((ages.length+1)/2)-1];
-//         console.log(s);
-//     }
+    if (ages.length%2==0){
+        let y = (ages[(ages.length/2)-1] + ages[(ages.length/2)])/2;
+        console.log(y);
+    }else{
+        let s = ages[((ages.length+1)/2)-1];
+        console.log(s);
+    }
 
 // Find the average age(all items divided by number of items)
 
@@ -24,8 +24,15 @@ const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
             sum = sum+sd[i];
         }
         let fd = sum/sd.length;
-        console.log(fd);
+        // console.log(fd);
+        return fd;
     }
-hold(ages);
+let dol = hold(ages);
+console.log(dol);
 
-  
+// Find the range of the ages(max minus min)
+let le = Math.abs(Math.min(...ages)-hold(ages));
+console.log(le);
+
+// let he = Math.abs(Math.max(...ages)-hold(ages));
+// console.log(he);
