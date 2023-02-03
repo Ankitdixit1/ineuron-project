@@ -18,13 +18,13 @@ function bold(sd,vd){
     for(let i=0; i<=2,i<=6,i<=9,i<=12;i++){
         let name = vd[i];
         if(i<=2 && name==sd){
-            document.getElementById('h1').innerHTML = "Autmn"
+            console.log("Autmn");
         }else if(i<=5 && name==sd){
-            document.getElementById('h1').innerHTML = "Winter"
+            console.log("Winter");
         }else if(i<=8 && name==sd){
-            document.getElementById('h1').innerHTML = "Spring"
+            console.log("Spring");
         }else if(i<=11 && name==sd){
-            document.getElementById('h1').innerHTML = "Summer"
+            console.log("Summer");
         }
     }
 }

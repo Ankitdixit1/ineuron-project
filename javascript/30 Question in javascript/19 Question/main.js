@@ -1,9 +1,5 @@
-import{
-    countries
-}from './countries';
+import{countries}from './countries';
 console.log('hello world', countries);
 
-import{
-    web
-}from'./web_techs';
+import{web}from'./web_techs';
 console.log(web);

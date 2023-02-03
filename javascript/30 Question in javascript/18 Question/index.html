@@ -40,11 +40,11 @@
                 let name = sdf[i];
                 let feb = 'February';
                 if (df==name && i%2==1){
-                    document.getElementById('h1').innerHTML = "30 Days";
+                    console.log("30 days");
                 }else if (df==name && i%2==0){
-                    document.getElementById('h1').innerHTML = "31 Days";
+                    console.log("31 days");
                 }else if (feb==df){
-                    document.getElementById('h1').innerHTML = "28 days";
+                    console.log("28 days");
                 }
             }
         }
@@ -52,9 +52,9 @@
         function look(){
             let lsd = document.getElementById("year").value;
             if(lsd%4==0){
-                document.getElementById('h2').innerHTML = "leep year";
+                console.log('leep year'); 
             }else{
-                document.getElementById('h2').innerHTML = "no its not leep year";
+                console.log("no its not a leep year");
             }
         }
         
