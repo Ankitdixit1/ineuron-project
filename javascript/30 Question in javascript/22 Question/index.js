@@ -23,8 +23,9 @@ const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
         for(let i=0; i<sd.length; i++){
             sum = sum+sd[i];
         }
-        return sum;
+        let fd = sum/sd.length;
+        console.log(fd);
     }
-  console.log(hold(ages));
+hold(ages);
 
   
