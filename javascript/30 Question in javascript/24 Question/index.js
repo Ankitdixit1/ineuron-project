@@ -7,3 +7,5 @@ for (let i = 0; i<=100;i++){
         sd.push(i)
     }
 }
+console.log('even',fd);
+console.log('odd',sd);
