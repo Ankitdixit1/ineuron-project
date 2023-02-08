@@ -10,6 +10,15 @@ dold.innerHTML = "<a>projects</a>"
 
 let element = document.createElement("li");
 element.innerHTML = "<a>Hire Me</a>"
-let cold = document.querySelector("ul")
-cold.appendChild(element);
+let select = document.querySelector("ul")
+select.appendChild(element);
+```
+## **Task 2**
+search bar **palceholder name change**
+### **Final Output**
+![Output Image](./task2Output.png)
+```js
+let select = document.querySelector(".search-field input");
+select.placeholder = "Search My project"
+console.log(select);
 ```
