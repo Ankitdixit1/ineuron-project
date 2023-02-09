@@ -49,3 +49,60 @@ create.innerHTML = "Support Me"
 let select = document.querySelector(".hero-right-section-btns");
 select.appendChild(create)
 ```
+
+# **DOM Assignment 2**
+---
+## **Task 1**
+change in backgroundColor in h3 and p tag
+### **Final Output**
+![Output Image](/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/secondAssignmentImage/task1Output.png)
+```js
+let h3 = document.querySelectorAll(".accordian h3");
+let p = document.querySelectorAll(".accordian p")
+h3.forEach (function(hold){hold.style.backgroundColor = "#dadaf8"});
+p.forEach (function(old){old.style.backgroundColor = "#eeeeff"});
+```
+## **Task 2**
+creating new element and tag
+### **Final Output**
+![Output Image](/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/secondAssignmentImage/task2Output.png)
+```js
+
+let tag = `
+<h3>Skills</h3>
+<p>I posses a very good command over the full Stack 
+Technologies like Mern which can be seen in my work over the Github.</p>
+`;
+let creat = document.createElement("div");
+creat.className = "accordian";
+creat.innerHTML = tag;
+let select = document.querySelector(".accordian-wrapper");
+select.appendChild(creat);
+
+
+let h3 = document.querySelectorAll(".accordian h3");
+let p = document.querySelectorAll(".accordian p")
+h3.forEach (function(hold){hold.style.backgroundColor = "#dadaf8"});
+p.forEach (function(old){old.style.backgroundColor = "#eeeeff"});
+```
+# **DOM Assignment 3**
+---
+## **Task 1**
+change in input placeholder name
+### **Final Output**
+![Output Image](/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/thirdAssignmentImage/task1Output.png)
+```js
+let name = document.querySelector(".enterName");
+name.placeholder = "FSJS 2.0"
+let mail = document.querySelector(".enterMail");
+mail.placeholder = "fsjs@ineuron.ai"
+let message = document.querySelector(".enterMessage");
+message.placeholder = "Hello World"
+
+let named = document.querySelector(".userName");
+named.placeholder = "FSJS 2.0"
+let mails = document.querySelector(".userEmail");
+mails.placeholder = "fsjs@ineuron.ai"
+let messages = document.querySelector(".enterMessage");
+messages.placeholder = "Hello World"
+```
