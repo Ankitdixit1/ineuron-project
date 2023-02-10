@@ -183,3 +183,34 @@ sd.href = "#";
 sd.innerHTML = "<h5 class=recipe-name>add 6th card here</h5>"
 document.querySelector(".card7").appendChild(sd);
 ```
+# **DOM Assignment 6**
+---
+## **Task 1**
+change in logo
+### **Final Output**
+![Output Image](./06_DOM%20Project/06_DOM%20Project/Output/DOM%20P3%20SS-1.png)
+```js
+document.querySelector("header img").src = "./assets/ineuron-logo.png";
+```
+## **Task 2**
+change in month amount 4 dollar to 10 dollar
+### **Final Output**
+![Output Image](./06_DOM%20Project/06_DOM%20Project/Output/DOM%20P3%20SS-2.png)
+```js
+document.querySelector(".app_price span").innerHTML = "$10"
+```
+# **DOM Assignment 7**
+---
+## **Task 1**
+change in a i remove all extra a 
+### **Final Output**
+![Output Image](./DOM%20P7/DOM%20P7/ass7.1-after.png)
+
+```js
+const list = document.querySelector(".main__languages");
+  list.removeChild(list.children[3]);
+  list.removeChild(list.children[4]);
+  list.removeChild(list.children[5]);
+  list.removeChild(list.children[6]);
+  list.removeChild(list.children[7]);
+  ```
