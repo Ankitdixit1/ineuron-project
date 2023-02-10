@@ -214,3 +214,26 @@ const list = document.querySelector(".main__languages");
   list.removeChild(list.children[6]);
   list.removeChild(list.children[7]);
   ```
+
+## **Task 2**
+adding h3 according to output as in picture and to make final using css 
+### **Final Output**
+![Output Image](./DOM%20P7/DOM%20P7/ass7.2-after.png)
+```js
+let selects =  document.querySelector(".main__form-input");
+selects.placeholder = "iNeuron"
+
+let create = document.createElement("h3");
+create.innerHTML = "After writing the text submit the form";
+create.style.padding = "5px 10px"
+create.style.background = "red"
+create.style.marginLeft = "40px"
+create.style.fontSize = "21px"
+create.style.color = "white"
+create.style.position = "absolute"
+create.style.bottom = "-50px"
+
+let select =  document.querySelector(".main__form");
+select.appendChild(create)
+select.style.position = "relative"
+```
