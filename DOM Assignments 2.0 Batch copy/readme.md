@@ -157,3 +157,29 @@ document.querySelector(".clash-card__image--giant img").style.width = "280px";
 document.querySelector(".clash-card__image--goblin img").style.width = "300px";
 document.querySelector(".clash-card__image--wizard img").style.width = "280px";
 ```
+# **DOM Assignment 5**
+---
+## **Task 1**
+adding btn called pro subscription adding chinese 7 and 6th card 
+### **Final Output**
+![Output Image](./05_DOM%20Project/05_DOM%20Project/Output/DOM%20P2%20SS.png)
+```js
+let create = document.createElement("div");
+create.innerHTML = "<a href=index.html class=btn>pro Subscription</a>"
+let select = document.querySelector(".nav-center");
+select.appendChild(create);
+document.querySelector(".nav-center").style.justifyContent = "center";
+document.querySelector(".nav-links").style.padding = "0 170px 0 170px";
+let x = document.createElement("a");
+x.href = "#";
+x.innerHTML = "Chinese (7)"
+document.querySelector(".tags-container div").appendChild(x);
+let s = document.createElement("div");
+s.className = "card card7";
+document.querySelector(".recipe-gallery").appendChild(s);
+let sd = document.createElement("a");
+sd.className = "recipe-text";
+sd.href = "#";
+sd.innerHTML = "<h5 class=recipe-name>add 6th card here</h5>"
+document.querySelector(".card7").appendChild(sd);
+```
