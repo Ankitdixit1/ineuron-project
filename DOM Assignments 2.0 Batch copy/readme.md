@@ -3,7 +3,7 @@
 ## **Task 1** 
 adding menu named **"Hire me"** and **projects**.
 ### **Final Output**
-![Output Image](./firstAssignmentImage/task1Output.png)
+![Output Image](./DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task1Output.png)
 ```js
 let dold = document.querySelector("ul").children[2];
 dold.innerHTML = "<a>projects</a>"
@@ -16,7 +16,7 @@ select.appendChild(element);
 ## **Task 2**
 search bar **palceholder name change**
 ### **Final Output**
-![Output Image](./firstAssignmentImage/task2Output.png)
+![Output Image](./DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task2Output.png)
 ```js
 let select = document.querySelector(".search-field input");
 select.placeholder = "Search My project"
@@ -25,7 +25,7 @@ console.log(select);
 ## **Task 3**
 change in **span** text 
 ### **Final Output**
-![Output Image](./firstAssignmentImage/task3Output.png)
+![Output Image](./DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task3Output.png)
 ```js
 let select = document.querySelectorAll(".hero-left-section p span");
 select[1].innerHTML = "an Employee"
@@ -34,7 +34,7 @@ select[2].innerHTML = "ineuron Intelligence pvt ltd"
 ## **Task 4**
 change hero img 
 ### **Final Output**
-![Output Image](./firstAssignmentImage/task4Output.png)
+![Output Image](./DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task4Output.png)
 ```js
 let select = document.querySelector(".hero-right-section img");
 select.src = "https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e6090367/2eaab/person-image.jpg"
@@ -42,7 +42,7 @@ select.src = "https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e609036
 ## **Task 5**
 adding button 
 ### **Final Output**
-![Output Image](./firstAssignmentImage/task5Output.png)
+![Output Image](./DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task5Output.png)
 ```js
 let create = document.createElement("button");
 create.innerHTML = "Support Me"
@@ -55,7 +55,7 @@ select.appendChild(create)
 ## **Task 1**
 change in backgroundColor in h3 and p tag
 ### **Final Output**
-![Output Image](./secondAssignmentImage/task1Output.png)
+![Output Image](./DOM%20Assignment%202.0%201%2C2%2C3/secondAssignmentImage/task1Output.png)
 ```js
 let h3 = document.querySelectorAll(".accordian h3");
 let p = document.querySelectorAll(".accordian p")
@@ -65,7 +65,7 @@ p.forEach (function(old){old.style.backgroundColor = "#eeeeff"});
 ## **Task 2**
 creating new element and tag
 ### **Final Output**
-![Output Image](./secondAssignmentImage/task2Output.png)
+![Output Image](./DOM%20Assignment%202.0%201%2C2%2C3/secondAssignmentImage/task2Output.png)
 ```js
 
 let tag = `
@@ -90,7 +90,7 @@ p.forEach (function(old){old.style.backgroundColor = "#eeeeff"});
 ## **Task 1**
 change in input placeholder name
 ### **Final Output**
-![Output Image](./thirdAssignmentImage/task1Output.png)
+![Output Image](./DOM%20Assignment%202.0%201%2C2%2C3/thirdAssignmentImage/task1Output.png)
 ```js
 let name = document.querySelector(".enterName");
 name.placeholder = "FSJS 2.0"
@@ -105,4 +105,55 @@ let mails = document.querySelector(".userEmail");
 mails.placeholder = "fsjs@ineuron.ai"
 let messages = document.querySelector(".enterMessage");
 messages.placeholder = "Hello World"
+```
+# **DOM Assignment 4**
+---
+## **Task 1**
+change in css according to need 
+### **Final Output**
+![Output Image](./04_DOM%20Project/04_DOM%20Project/Output/DOM%20P1%20SS.png)
+
+```js
+let select = document.querySelector(".slide-container");
+select.style.flexWrap = "nowrap"
+
+
+let clash = document.querySelectorAll(".clash-card");
+clash.forEach(function(hold){hold.style.width = "240px"});
+
+let clashs = document.querySelectorAll(".clash-card__image");
+clashs.forEach(function(holds){holds.style.height = "180px"});
+
+let font = document.querySelectorAll(".stat");
+font.forEach(function(ls){ls.style.fontSize = "15px"});
+
+let padd = document.querySelectorAll(".one-third");
+padd.forEach(function(ls){
+    ls.style.padding = "12px 8px"
+    ls.style.color = "White"
+});
+
+document.querySelector(".clash-card__unit-stats--barbarian").style.backgroundColor = "#ec9b3b";
+document.querySelector(".clash-card__unit-stats--archer").style.backgroundColor = "#ee5487";
+document.querySelector(".clash-card__unit-stats--giant").style.backgroundColor = "#f6901a";
+document.querySelector(".clash-card__unit-stats--goblin").style.backgroundColor = "#82bb30";
+document.querySelector(".clash-card__unit-stats--wizard").style.backgroundColor = "#4facff";
+
+let size = document.querySelectorAll(".clash-card__unit-description");
+size.forEach(function(ls){
+    ls.style.padding = "12px 8px"
+    ls.style.fontSize = "12px"
+});
+
+let sele = document.querySelectorAll(".clash-card div:nth-child(3)");
+sele.forEach(function(sos){sos.style.fontSize = "20px"})
+
+document.querySelector(".archer div:nth-child(3)").innerHTML = "The Archer";
+document.querySelector(".goblin div:nth-child(3)").innerHTML = "The Goblin";
+
+document.querySelector(".clash-card__image--barbarian img").style.width = "320px";
+document.querySelector(".clash-card__image--archer img").style.width = "320px";
+document.querySelector(".clash-card__image--giant img").style.width = "280px";
+document.querySelector(".clash-card__image--goblin img").style.width = "300px";
+document.querySelector(".clash-card__image--wizard img").style.width = "280px";
 ```
