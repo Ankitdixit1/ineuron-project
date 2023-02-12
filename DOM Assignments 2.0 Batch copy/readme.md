@@ -237,3 +237,45 @@ let select =  document.querySelector(".main__form");
 select.appendChild(create)
 select.style.position = "relative"
 ```
+
+# **DOM Assignment 8**
+---
+## **Task 1**
+change in a i remove all extra a 
+### **Final Output**
+![Output Image](./DOM%20P8/DOM%20P8/ass8.1-after.png)
+```js
+let create = document.createElement("h2");
+create.className = "new-head";
+create.innerHTML = "This is custom heading";
+let createp =  document.createElement("p");
+createp.className = "new-p";
+createp.innerHTML = "here i dont what should i right so i am writing some line ";
+let select = document.querySelector(".new");
+select.style.overflowY = "scroll"
+select.appendChild(create)
+select.appendChild(createp)
+select.style.border = "3px solid red"
+```
+## **Task 2**
+change in a i remove all extra a 
+### **Final Output**
+![Output Image](./DOM%20P8/DOM%20P8/ass8.2-after.png)
+```js
+document.body.style.background = "white"
+```
+## **Task 3**
+change in a i remove all extra a 
+### **Final Output**
+![Output Image](./DOM%20P8/DOM%20P8/ass8.3-after.png)
+```js
+let accordian = document.querySelector(".navbar-toggler");
+  accordian.addEventListener("click", () => {
+    let select = document.querySelector(".collapse");
+    if (select.style.display === "block") {
+      select.style.display = "none";
+    } else {
+      select.style.display = "block";
+    }
+  });
+  ```
