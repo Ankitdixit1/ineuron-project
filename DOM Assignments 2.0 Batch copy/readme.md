@@ -241,7 +241,7 @@ select.style.position = "relative"
 # **DOM Assignment 8**
 ---
 ## **Task 1**
-change in a i remove all extra a 
+change in adding scroll bar  
 ### **Final Output**
 ![Output Image](./DOM%20P8/DOM%20P8/ass8.1-after.png)
 ```js
@@ -258,14 +258,14 @@ select.appendChild(createp)
 select.style.border = "3px solid red"
 ```
 ## **Task 2**
-change in a i remove all extra a 
+change in background color
 ### **Final Output**
 ![Output Image](./DOM%20P8/DOM%20P8/ass8.2-after.png)
 ```js
 document.body.style.background = "white"
 ```
 ## **Task 3**
-change in a i remove all extra a 
+change in navbar togller display
 ### **Final Output**
 ![Output Image](./DOM%20P8/DOM%20P8/ass8.3-after.png)
 ```js
@@ -279,3 +279,19 @@ let accordian = document.querySelector(".navbar-toggler");
     }
   });
   ```
+  # **DOM Assignment 9**
+---
+## **Task 1**
+change in h1 color
+### **Final Output**
+![Output Image](./DOM%20P9/DOM%20P9/ass9.1-after.png)
+```js
+document.querySelector(".caption h1").style.color = "red";
+```
+## **Task 2**
+change in card color 
+### **Final Output**
+![Output Image](./DOM%20P9/DOM%20P9/ass9.2-after.png)
+```js
+document.querySelector(".add-to-cart").style.backgroundColor = "red";
+```
