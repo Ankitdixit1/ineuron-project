@@ -90,5 +90,7 @@ h1{
     height: 100%;
     width: 100%;
   }
-  
+  .container{
+    width: 390px;
+  }
 }
