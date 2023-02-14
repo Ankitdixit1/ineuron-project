@@ -14,6 +14,7 @@ const windSpeed = document.getElementById("windSpeed");
 const temprature = document.getElementById("temprature");
 const logoImage = document.getElementById("logoImage");
 const weatherStatus = document.getElementById("weatherStatus");
+const video = document.querySelector("video");
 
 const getData = async (event) => {
   event.preventDefault();
@@ -44,13 +45,15 @@ const getData = async (event) => {
   temprature.innerHTML = data.current.temp_c;
   logoImage.src = data.current.condition.icon;
   weatherStatus.innerHTML = data.current.condition.text;
-  // console.log(weatherStatus);
-  // if(weatherStatus.innerText == 'Mist' ){
-  //   document.body.style.background = "url('./pexels-johannes-plenio-2850287.jpg')"
-  //   document.body.style.backgroundSize= "cover";
-  // }else if(){
-  //   document.body.style.background = "url('./pexels-errin-casano-2356045.jpg')"
-  //   document.body.style.backgroundSize= "cover";
-  // }
+  if(weatherStatus.innerText == 'Mist' ){
+    video.src = "assets/Cloudscape - 2166.mp4";
+  }else if(weatherStatus.innerText == 'Sunny'){
+    video.src = "assets/production ID_4652096 (1).mp4";
+  }else if(weatherStatus.innerText == 'Clear'){
+    video.src = "assets/Sky - 8016.mp4";
+  }else if(weatherStatus.innerText == 'Overcast'){
+    video.src = "assets/pexels-t-ladi-fotografi-5288342.mp4";
+  }else if(weatherStatus.innerText == 'Partly cloudy'){
+    video.src = "assets/Clouds - 17723.mp4";
+  }
 };
-// Mist Clear Overcast Sunny (Partly cloudy)  
