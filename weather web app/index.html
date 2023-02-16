@@ -13,7 +13,7 @@
 
 <body>
   <!-- container for holding the weather card -->
-  <div class="container">
+  <section class="container">
     <h1>Weather Web App</h1>
 
     <!-- section for searching the weather of a city -->
@@ -23,7 +23,7 @@
     </form>
 
     <!-- section for displaying the city weather data -->
-    <section class="cityWeatherData">
+    <div class="cityWeatherData">
       <!-- displaying the country details -->
       <div class="countryDetails details">
         <!-- displaying the country name -->
@@ -43,10 +43,7 @@
           <p>City Name</p>
           <p id="cityName">__</p>
         </div>
-      </div>
 
-      <!-- displaying the weather status -->
-      <div class="weatherDetails details">
         <!-- displaying the humidity -->
         <div class="card">
           <p>Humidity</p>
@@ -72,10 +69,9 @@
           <p id="weatherStatus">__</p>
         </div>
       </div>
-      
-    </section>
-  </div>
-  <video  autoplay loop  muted src="assets/production ID_5197505.mp4" type="video/mp4" >
+    </div>
+  </section>
+  <video autoplay loop muted src="assets/production ID_5197505.mp4" type="video/mp4">
     <!-- <source > -->
   </video>
 </body>
