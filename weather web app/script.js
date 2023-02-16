@@ -57,4 +57,3 @@ const getData = async (event) => {
     video.src = "assets/Clouds - 17723.mp4";
   }
 };
-console.log(video);
