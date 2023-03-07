@@ -11,8 +11,7 @@ import { useState } from "react";
 function App() {
   return (
     <>
-    <h1>hellos </h1>
-    <Card name = "ankit"/>
+    <Card />
     </>
   );
 }

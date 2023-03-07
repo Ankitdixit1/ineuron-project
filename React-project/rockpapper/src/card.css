@@ -1,0 +1,29 @@
+body{
+    background-color: yellowgreen;
+}
+button{
+    font-size: 100px;
+    background-color: transparent;
+    border-style: none;
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height: 250px;
+
+}
+.buttons{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  /* Add a transition effect when the game elements are clicked */
+  #rock:hover, #paper:hover, #scissors:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  
