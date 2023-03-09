@@ -1,17 +1,9 @@
-import Card from "./card";
-import Axios from 'axios';
-import { useState } from "react";
-
-// const [details, setdetails] = useState({})
-
-// const featchdetails = async () =>{
-
-// }
+import GameButtons from "./card";
 
 function App() {
   return (
     <>
-    <Card />
+    <GameButtons />
     </>
   );
 }
