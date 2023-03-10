@@ -4,40 +4,53 @@ import rock from "./photos/rock.png";
 import paper from "./photos/paper.png";
 import scissors from "./photos/sizor.png";
 import { useState } from "react";
+import loose from "./photos/loose.mp3";
+import win from "./photos/winner.mp3";
+import { useRef } from 'react';
 
 function GameButtons() {
+    const audioRef = useRef(null);
+    const audioReflos = useRef(null);
+
     const [dis, setdis] = useState(0);
     const [count, setcount] = useState(0);
     const sold = (value) => {
         const game = ["Rock", "paper", "scissors"];
         const computer = Math.floor(Math.random() * game.length);
         const find = game[computer];
-
+        
         var buttons = document.querySelectorAll(".compubut");
         for (var i = 0; i < buttons.length; i++) {
             if (buttons[i].id !== find) {
                 buttons[i].style.display = "none";
             }
         }
+        const bgVideo = document.getElementById("bgVideo");
         const assume = value + find;
         if (assume == "Rockscissors") {
             setdis("youwin");
             setcount(count + 1);
+            audioRef.current.play(); // play the audio
         } else if (assume == "paperRock") {
             setdis("youwin");
             setcount(count + 1);
+            audioRef.current.play(); // play the audio
         } else if (assume == "scissorspaper") {
             setcount(count + 1);
             setdis("youwin");
+            audioRef.current.play(); // play the audi
         } else if (assume == "scissorsRock") {
             setcount(count - 1);
             setdis("loose");
+            audioReflos.current.play(); // play the audio
         } else if (assume == "Rockpaper") {
             setcount(count - 1);
             setdis("loose");
+            audioReflos.current.play(); // play the audio
         } else if (assume == "paperscissors") {
             setcount(count - 1);
             setdis("loose");
+            audioReflos.current.play(); // play the audio
         } else if (value == "Rock") {
             setdis("draw");
         } else if (value == "paper") {
@@ -45,6 +58,7 @@ function GameButtons() {
         } else if (value == "scissors") {
             setdis("draw");
         }
+        
 
         var buttons = document.querySelectorAll(".butto");
         for (var i = 0; i < buttons.length; i++) {
@@ -63,10 +77,19 @@ function GameButtons() {
         for (var i = 0; i < cbuttons.length; i++) {
             cbuttons[i].style.display = "block";
         }
+
+    audioRef.current.pause(); // stop audio
+    audioRef.current.currentTime = 0; // reset audio to beginning
+        audioReflos.current.pause(); // play the audio
+        audioReflos.current.currentTime = 0; // reset audio to beginning
+
     };
 
     return (
         <>
+         <audio ref={audioRef} src={win} />
+         <audio ref={audioReflos} src={loose} />
+
             <div className="button2">
                 <div className="buttons">
                     <h1>YOU</h1>
@@ -93,6 +116,7 @@ function GameButtons() {
                     >
                         PLAY AGAIN
                     </button>
+                    {/* <audio ref={audioRef} src={win} /> */}
                 </div>
                 <div className="buttons">
                     <h1>COMPUTER</h1>
