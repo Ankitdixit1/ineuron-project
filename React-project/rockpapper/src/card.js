@@ -25,48 +25,49 @@ function GameButtons() {
                 buttons[i].style.display = "none";
             }
         }
-        const bgVideo = document.getElementById("bgVideo");
+        // const bgVideo = document.getElementById("bgVideo");
         const assume = value + find;
-        if (assume == "Rockscissors") {
+        if (assume === "Rockscissors") {
             setdis("youwin");
             setcount(count + 1);
             audioRef.current.play(); // play the audio
-        } else if (assume == "paperRock") {
+        } else if (assume === "paperRock") {
             setdis("youwin");
             setcount(count + 1);
             audioRef.current.play(); // play the audio
-        } else if (assume == "scissorspaper") {
+        } else if (assume === "scissorspaper") {
             setcount(count + 1);
             setdis("youwin");
             audioRef.current.play(); // play the audi
-        } else if (assume == "scissorsRock") {
+        } else if (assume === "scissorsRock") {
             setcount(count - 1);
             setdis("loose");
             audioReflos.current.play(); // play the audio
-        } else if (assume == "Rockpaper") {
+        } else if (assume === "Rockpaper") {
             setcount(count - 1);
             setdis("loose");
             audioReflos.current.play(); // play the audio
-        } else if (assume == "paperscissors") {
+        } else if (assume === "paperscissors") {
             setcount(count - 1);
             setdis("loose");
             audioReflos.current.play(); // play the audio
-        } else if (value == "Rock") {
+        } else if (value === "Rock") {
             setdis("draw");
-        } else if (value == "paper") {
+        } else if (value === "paper") {
             setdis("draw");
-        } else if (value == "scissors") {
+        } else if (value === "scissors") {
             setdis("draw");
         }
         
 
-        var buttons = document.querySelectorAll(".butto");
-        for (var i = 0; i < buttons.length; i++) {
-            if (buttons[i].id !== value) {
-                buttons[i].style.display = "none";
+        var buttonsRef = document.querySelectorAll(".butto");
+        for (let i = 0; i < buttonsRef.length; i++) {
+            if (buttonsRef[i].id !== value) {
+                buttonsRef[i].style.display = "none";
             }
         }
     };
+
     const refresh = () => {
         const buttons = document.querySelectorAll(".butto");
         for (let i = 0; i < buttons.length; i++) {
@@ -95,15 +96,15 @@ function GameButtons() {
                     <h1>YOU</h1>
                     <button className="butto" onClick={() => sold("Rock")} id="Rock">
                         <h1>Rock</h1>
-                        <img src={rock}></img>
+                        <img src={rock} alt="rock" />
                     </button>
                     <button className="butto" onClick={() => sold("paper")} id="paper">
                         <h1>Paper</h1>
-                        <img src={paper}></img>
+                        <img src={paper} alt="paper"/>
                     </button>
                     <button className="butto" onClick={() => sold("scissors")} id="scissors">
                         <h1>scissors</h1>
-                        <img src={scissors}></img>
+                        <img src={scissors} alt="scissors" />
                     </button>
                 </div>
                 <div className="score">
@@ -121,13 +122,13 @@ function GameButtons() {
                 <div className="buttons">
                     <h1>COMPUTER</h1>
                     <button className="compubut" id="Rock">
-                        <img className="compbut" src={rock}></img>
+                        <img className="compbut" src={rock} alt="rock"/>
                     </button>
                     <button className="compubut" id="paper">
-                        <img className="compbut" src={paper}></img>
+                        <img className="compbut" src={paper} alt="paper" />
                     </button>
                     <button className="compubut" id="scissors">
-                        <img className="compbut" src={scissors}></img>
+                        <img className="compbut" src={scissors} alt="scissors" />
                     </button>
                 </div>
             </div>
