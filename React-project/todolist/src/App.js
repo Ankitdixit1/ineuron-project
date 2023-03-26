@@ -1,10 +1,26 @@
-
+import { useState } from 'react';
 import Createnote from './Component/createnote';
-function App() {
+import Note from './Component/Note';
 
-  return (
+function App() {
+  const [additem,setitem]=useState([]);
+  const addnote = (note) => {
+  setitem((prevData) => {
+    return [...prevData, note];
+  });
+};
+   return (
     <>
-      <Createnote />
+      <Createnote 
+      notepass={addnote}
+      />
+      {additem.map((val,index)=>{
+        return(<Note 
+        key={index}
+        title={val.title}
+        content={val.content}
+        />)
+      }) }
     </>
   );
 }
