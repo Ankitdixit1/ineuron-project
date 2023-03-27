@@ -9,6 +9,13 @@ function App() {
     return [...prevData, note];
   });
 };
+const deletedata=(id)=>{
+  setitem((oldsd)=>
+  oldsd.filter((currre, index)=>{
+    return index !== id;
+  })
+  )
+};
    return (
     <>
       <Createnote 
@@ -17,8 +24,10 @@ function App() {
       {additem.map((val,index)=>{
         return(<Note 
         key={index}
+        id={index}
         title={val.title}
         content={val.content}
+        delete={deletedata}
         />)
       }) }
     </>

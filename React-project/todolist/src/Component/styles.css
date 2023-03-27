@@ -11,16 +11,31 @@ img{
     height: 50px;
 }
 .note{
-
-    border: 0.1px solid grey;
     display: inline-block;
-    padding: 10px;
-    margin: 10px 30px;
+    padding: 10px 10px 35px 10px;
+    margin: 10px 10px;
+    border-width: 1px 1px 1px 6px;
+    box-shadow: 0 0 1.5px rgb(128, 128, 128);
+    border-radius: 5px;
+    width: 200px;
+    word-wrap: break-word;
 }
 .note:hover{
-    box-shadow: 0 1px 2px rgb(128, 128, 128);
-
-
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+}
+.note:hover .deletebut{
+    display: inline;
+}
+.addbut{
+    margin-left: 550px;
+    border-radius: 15px;
+}
+.deletebut{
+    display: none;
+    position: absolute;
+}
+.editdelete{
+    margin-left: 30px;
 }
 span{
     font-size: 25px;
@@ -65,3 +80,16 @@ button:hover{
     background-color: #ffc23c;
     color: #ffffff;
 }
+@media only screen and (max-width: 600px) {
+    form{
+    /* margin: 100px auto; */
+    width: 300px;
+    }
+    .addbut{
+        margin-left: auto;
+        border-radius: 15px;
+    }
+    /* .note{
+        width: 100%;
+    } */
+  }

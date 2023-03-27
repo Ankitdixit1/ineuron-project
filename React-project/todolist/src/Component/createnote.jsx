@@ -2,6 +2,8 @@ import React from "react";
 import "./styles.css";
 import { useState, useEffect } from "react";
 import logo from "./logo.png";
+import AddIcon from '@material-ui/icons/Add';
+
 
 
 
@@ -35,10 +37,15 @@ export default function Createnote(props) {
   const addevent=(event)=>{
     event.preventDefault();
     props.notepass(note);
+    setnote ({
+      title: "",
+      content:"",
+    });
+   
   }
   return (
     <>
-      <img src={logo}></img>
+      <img src={logo} alt="solid"></img>
       <span>Keep Note</span>
       <form>
         <input
@@ -50,16 +57,19 @@ export default function Createnote(props) {
           onClick={dis}
         ></input>
         <p
-          className="sold"
+          
+        >
+          <textarea className="sold"
           name="content"
           value={note.content}
           onChange={Inputcall}
           style={{ display: show }}
-          onClick={dis}
-        >
-          <textarea name="content" placeholder="make note.."></textarea>
+          onClick={dis} 
+          placeholder="make note.."></textarea>
         </p>
-        <button style={{ display: show }} onClick={addevent}>add button</button>
+        <button className="addbut" style={{ display: show }} onClick={addevent}>
+          <AddIcon  style={{ display: "flex", width:"2rem", height:"2rem" }}/>
+        </button>
       </form>
     </>
   );
