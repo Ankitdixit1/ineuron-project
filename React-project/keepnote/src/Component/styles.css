@@ -73,12 +73,17 @@ button{
     border: none;
     box-shadow: 0 1px 5px rgb(128, 128, 128);
     border-radius: 5px;
-color: #ffc23c;
+
 
 }
 button:hover{
     background-color: #ffc23c;
     color: #ffffff;
+}
+.edittext{
+    border: none;
+    outline: none;
+    resize: none;
 }
 @media only screen and (max-width: 600px) {
     form{

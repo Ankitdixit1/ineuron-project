@@ -2,8 +2,8 @@ import React from "react";
 import "./styles.css";
 import { useState, useEffect } from "react";
 import logo from "./logo.png";
-import AddIcon from '@material-ui/icons/Add';
-
+import plus from "./plus.png";
+// import AddIcon from '@material-ui/icons/Add';
 
 
 
@@ -68,7 +68,8 @@ export default function Createnote(props) {
           placeholder="make note.."></textarea>
         </p>
         <button className="addbut" style={{ display: show }} onClick={addevent}>
-          <AddIcon  style={{ display: "flex", width:"2rem", height:"2rem" }}/>
+        {/* <FontAwesomeIcon icon="fa-thin fa-plus" style={{color: "#9028c8",}} /> */}
+          <img src={plus} alt="do" style={{ display: "flex", width:"2rem", height:"2rem", color: "#ffc23c" }}/>
         </button>
       </form>
     </>
