@@ -2,9 +2,12 @@ import React from "react";
 import "./styles.css";
 import { useState, useEffect } from "react";
 import logo from "./logo.png";
-import plus from "./plus.png";
-// import AddIcon from '@material-ui/icons/Add';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 
+// import AddIcon from '@material-ui/icons/Add';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Createnote(props) {
@@ -68,8 +71,7 @@ export default function Createnote(props) {
           placeholder="make note.."></textarea>
         </p>
         <button className="addbut" style={{ display: show }} onClick={addevent}>
-        {/* <FontAwesomeIcon icon="fa-thin fa-plus" style={{color: "#9028c8",}} /> */}
-          <img src={plus} alt="do" style={{ display: "flex", width:"2rem", height:"2rem", color: "#ffc23c" }}/>
+        <FontAwesomeIcon className="addic" icon={faPlus} style={{display: "flex", width:"2rem", height:"2rem",color: "#ffc23c",}} />
         </button>
       </form>
     </>

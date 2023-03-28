@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-// import DeleteOutlineIcon from '@material-ui/icons/DeleteOutline';
-import plus from "./plus.png";
+
 
 export default function Note(props) {
   const [isEditable, setIsEditable] = useState(false);
@@ -39,16 +38,14 @@ export default function Note(props) {
     <div className="note"onClick={handleEditClick}>
       {isEditable ? (
         <div>
-          <input className="edittext" type="text" value={titles} onChange={handleContentChanges}></input>
-          <textarea className="edittext" value={contents} onChange={handleContentChange}></textarea>
+          <input className="edittext" type="text" value={titles} onChange={handleContentChanges} style={{fontSize:"20px", width:"100%", fontWeight:"bold"}}></input>
+          <textarea className="edittext" value={contents} onChange={handleContentChange} style={{fontSize:"15px"}}></textarea>
         </div>
       ) : (
         <div>
           <h3 >{titles}</h3>
-          <p onClick={handleEditClick}>{contents}</p>
-          
-          <button className="editdelete deletebut" onClick={handleDeleteClick}><img src={plus} alt="plus"></img></button>
-          
+          <p onClick={handleEditClick}>{contents}</p>          
+          <button className="editdelete deletebut" onClick={handleDeleteClick}></button>
         </div>
       )}
     </div>
