@@ -42,7 +42,7 @@ function App() {
                 return (
                   <li key={ingredient}>
                     {measure} {ingredient}
-                  </li> 
+                  </li>
                 );
               })}
             </ul>
