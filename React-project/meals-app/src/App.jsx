@@ -9,9 +9,9 @@ function App() {
   const handleSearch = async () => {
     const { data } = await Axios.get(
       `https://www.themealdb.com/api/json/v1/1/search.php?s=${searchValue}`
-    ); 
+    );   
     setMeal(data.meals?.[0]);
-  };  
+  };   
   
   return (
     <div className="text-center">
