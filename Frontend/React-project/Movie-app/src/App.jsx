@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { fetchDataFormApi } from "./utils/api.js";
+import { useSelector, useDispatch } from 'react-redux'
+// import {getconfiguatiorn} from "./store/homeslice.js"
 function App() {
   useEffect(() => {
     apitesting();
