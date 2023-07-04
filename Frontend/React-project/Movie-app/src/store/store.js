@@ -5,6 +5,6 @@ import homeslice from './homeslice'
 
 export const store = configureStore({
   reducer: {
-    home:homeslice
+    home:homeslice,
   },
 })

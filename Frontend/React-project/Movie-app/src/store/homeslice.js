@@ -8,7 +8,7 @@ export const homeslice = createSlice({
     genres:{}
   },
   reducers: {
-    getconfiguatiorn : (state, action)=> {
+    getconfiguration : (state, action)=> {
   state.url = action.payload
     },
     getGenres : (state, action)=> {
