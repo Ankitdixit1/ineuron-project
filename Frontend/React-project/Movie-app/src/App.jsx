@@ -17,13 +17,19 @@ function App() {
 console.log(url);
   
   useEffect(() => {
-    apitesting();
+    fetchApiconfig();
   }, []);
 
-  const apitesting = () => {
-    fetchDataFormApi('/movie/popular').then((res) => {
+  const fetchApiconfig = () => {
+    fetchDataFormApi('/configuration').then((res) => {
       console.log(res);
-      dispatch(getconfiguration(res));
+      const url = {
+        backdrop: res.images.secure_base_url + "original",
+        poster: res.images.secure_base_url + "original",
+        profile: res.images.secure_base_url + "original",
+        
+      };
+      dispatch(getconfiguration(url));
     });
   }
   return (
