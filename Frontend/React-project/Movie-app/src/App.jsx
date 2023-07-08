@@ -3,7 +3,7 @@ import {BrowserRouter, Routes, Route } from "react-router-dom";
 import { fetchDataFormApi } from "./utils/api.js";
 import { useSelector, useDispatch } from 'react-redux'
 import {getconfiguration} from "./store/homeslice.js"
-import Header from "./components/header/Header";
+import Header from "./components/header/Header.jsx";
 import Footer from "./components/footer/footer.jsx";
 import Home from "./pages/home/home.jsx";
 import Details from "./pages/details/Details";
@@ -34,14 +34,13 @@ console.log(url);
   }
   return (
   <BrowserRouter>
-  {/* {<Header/>} */}
+  {<Header/>}
   <Routes>
     <Route path="/" element={<Home />}/>
     <Route path="/:MediaType/:id" element={<Details />}/>
     <Route path="/search/:query" element={<SearchResult />}/>
     <Route path="/explore/:mediaType" element={<Explore />}/>
     <Route path="*" element={<PageNotFound />}/>
-
   </Routes>
   {/* {<Footer/>} */}
   </BrowserRouter>
