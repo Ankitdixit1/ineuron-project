@@ -11,7 +11,7 @@ const SwitchTabs = ({ data, onTabChange }) => {
         setTimeout(() => {
             setSelectedTab(index);
         }, 300);
-        // onTabChange(tab, index);
+        onTabChange(tab, index);
     };
 
     return (
@@ -19,7 +19,7 @@ const SwitchTabs = ({ data, onTabChange }) => {
             <div className="tabItems">
                 {data.map((tab, index) => (
                     <span
-                        // key={index}
+                        key={index}
                         className={`tabItem ${
                             selectedTab === index ? "active" : ""
                         }`}
