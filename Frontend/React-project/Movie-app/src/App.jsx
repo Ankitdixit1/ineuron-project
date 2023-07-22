@@ -6,11 +6,11 @@ import { useSelector, useDispatch } from "react-redux";
 import { getApiConfiguration, getGenres } from "./store/homeslice.js";
 
 import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
-import Home from "./pages/home/Home";
+import Footer from "./components/footer/footer";
+import Home from "./pages/home/home";
 import Details from "./pages/details/Details";
 import SearchResult from "./pages/searchResult/SearchResult";
-import Explore from "./pages/explore/Explore";
+import Explore from "./pages/explore/explore";
 import PageNotFound from "./pages/404/PageNoteFound";
 
 function App() {
