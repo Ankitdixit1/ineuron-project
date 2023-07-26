@@ -1,1 +1,0 @@
-site link - https://keep-notes-withyou.netlify.app
